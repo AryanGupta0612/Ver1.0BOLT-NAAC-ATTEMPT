@@ -1,9 +1,6 @@
 import React from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
-import { PrincipalInterview } from './components/PrincipalInterview';
-import { StudentAchievements } from './components/StudentAchievements';
-import { NewsEvents } from './components/NewsEvents';
 import { CriteriaPortal } from './components/CriteriaPortal';
 
 function App() {
@@ -13,9 +10,6 @@ function App() {
       <main id="main-content">
         <Hero />
         <CriteriaPortal />
-        <PrincipalInterview />
-        <StudentAchievements />
-        <NewsEvents />
       </main>
     </div>
   );
