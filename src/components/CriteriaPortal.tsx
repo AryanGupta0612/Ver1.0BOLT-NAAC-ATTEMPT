@@ -101,49 +101,53 @@ const criteriaData: CriteriaData = {
   'criteria-6': {
     title: 'CRITERIA 6: Governance, Leadership and Management',
     items: [
-      { id: '6.1.1', title: 'The governance of the institution is reflective', documents: ['Governance Structure'] },
-      { id: '6.1.2', title: 'The effective leadership is visible', documents: ['Leadership Reports'] },
-      { id: '6.2.1', title: 'The institutional Strategic/ perspective plan', documents: ['Strategic Plan'] },
-      { id: '6.2.2', title: 'Implementation of e-governance', documents: ['E-Governance'] },
-      { id: '6.3.1', title: 'The institution has effective welfare measures', documents: ['Welfare Measures'] },
-      { id: '6.3.2', title: 'Percentage of teachers provided with financial support', documents: ['Financial Support'] },
-      { id: '6.4.1', title: 'Institution conducts internal and external financial audits', documents: ['Audit Reports'] },
-      { id: '6.5.1', title: 'Internal Quality Assurance Cell (IQAC)', documents: ['IQAC Reports'] }
+      { id: '6.1.1', title: 'The governance of the institution is reflective of effective leadership', documents: ['Governance Structure', 'Leadership Framework'] },
+      { id: '6.2.1', title: 'The institutional Strategic/perspective plan is effectively deployed', documents: ['Strategic Plan', 'Implementation Report'] },
+      { id: '6.2.2', title: 'Implementation of e-governance in areas of operation', documents: ['E-Governance Systems', 'Digital Infrastructure'] },
+      { id: '6.3.1', title: 'The institution has effective welfare measures for teaching and non-teaching staff', documents: ['Welfare Policies', 'Staff Benefits'] },
+      { id: '6.3.2', title: 'Average percentage of teachers provided with financial support to attend conferences/workshops', documents: ['Financial Support Records', 'Conference Attendance'] },
+      { id: '6.3.3', title: 'Average number of professional development/administrative training programs organized', documents: ['Training Programs', 'Professional Development'] },
+      { id: '6.4.1', title: 'Institution conducts internal and external financial audits regularly', documents: ['Audit Reports', 'Financial Statements'] },
+      { id: '6.4.2', title: 'Funds/Grants received from non-government bodies, individuals, philanthropists', documents: ['Grant Records', 'Funding Sources'] },
+      { id: '6.4.3', title: 'Institutional strategies for mobilisation of funds and the optimal utilisation of resources', documents: ['Resource Mobilization', 'Fund Utilization'] },
+      { id: '6.5.1', title: 'Internal Quality Assurance Cell (IQAC) has contributed significantly for institutionalizing the quality assurance strategies', documents: ['IQAC Reports', 'Quality Initiatives'] },
+      { id: '6.5.2', title: 'The institution reviews its teaching learning process, structures & methodologies of operations', documents: ['Review Reports', 'Process Evaluation'] },
+      { id: '6.5.3', title: 'Quality assurance initiatives of the institution include regular conduct of Academic and Administrative Audit', documents: ['Quality Audits', 'Assessment Reports'] }
     ]
   },
   'criteria-7': {
     title: 'CRITERIA 7: Institutional Values and Best Practices',
     items: [
-      { id: '7.1.1', title: 'Measures initiated by the Institution for the promotion of gender equity', documents: ['Gender Equity'] },
-      { id: '7.1.2', title: 'The Institution has facilities for alternate sources of energy', documents: ['Energy Sources'] },
-      { id: '7.1.3', title: 'Describe the facilities in the Institution for the management of waste', documents: ['Waste Management'] },
-      { id: '7.2.1', title: 'Describe two best practices successfully implemented', documents: ['Best Practices'] },
-      { id: '7.3.1', title: 'Portray the performance of the Institution', documents: ['Performance Report'] }
+      { id: '7.1.1', title: 'Measures initiated by the Institution for the promotion of gender equity during the last five years', documents: ['Gender Equity Policies', 'Women Empowerment Programs'] },
+      { id: '7.1.2', title: 'The Institution has facilities for alternate sources of energy and energy conservation measures', documents: ['Energy Conservation', 'Renewable Energy Systems'] },
+      { id: '7.1.3', title: 'Describe the facilities in the Institution for the management of the following types of degradable and non-degradable waste', documents: ['Waste Management System', 'Environmental Policies'] },
+      { id: '7.1.4', title: 'Water conservation facilities available in the Institution', documents: ['Water Conservation', 'Rainwater Harvesting'] },
+      { id: '7.1.5', title: 'Green campus initiatives include the following', documents: ['Green Campus Report', 'Environmental Initiatives'] },
+      { id: '7.1.6', title: 'Quality audits on environment and energy regularly undertaken by the Institution', documents: ['Environmental Audits', 'Energy Audits'] },
+      { id: '7.1.7', title: 'The Institution has disabled-friendly, barrier free environment', documents: ['Accessibility Features', 'Barrier-Free Infrastructure'] },
+      { id: '7.1.8', title: 'Describe the Institutional efforts/initiatives in providing an inclusive environment', documents: ['Inclusion Policies', 'Diversity Programs'] },
+      { id: '7.1.9', title: 'Sensitization of students and employees of the Institution to the constitutional obligations', documents: ['Constitutional Awareness', 'Civic Education'] },
+      { id: '7.1.10', title: 'The Institution has a prescribed code of conduct for students, teachers, administrators and other staff', documents: ['Code of Conduct', 'Ethics Guidelines'] },
+      { id: '7.2.1', title: 'Describe two best practices successfully implemented by the Institution', documents: ['Best Practice 1', 'Best Practice 2', 'Implementation Reports'] },
+      { id: '7.3.1', title: 'Portray the performance of the Institution in one area distinctive to its priority and thrust', documents: ['Distinctive Performance', 'Institutional Excellence'] }
     ]
   },
   'ssr': {
     title: 'Self Study Report (SSR)',
     items: [
-      { id: 'ssr-1', title: 'Executive Summary', documents: ['Executive Summary PDF'] },
-      { id: 'ssr-2', title: 'Profile of the Institution', documents: ['Institution Profile'] },
-      { id: 'ssr-3', title: 'Extended Profile', documents: ['Extended Profile'] },
-      { id: 'ssr-4', title: 'Quality Indicator Framework', documents: ['QIF Document'] },
-      { id: 'ssr-5', title: 'Institutional Preparedness for NEP', documents: ['NEP Preparedness'] },
-      { id: 'ssr-6', title: 'SWOC Analysis', documents: ['SWOC Analysis'] },
-      { id: 'ssr-7', title: 'Annexure', documents: ['Annexure Documents'] }
+      { id: 'ssr', title: 'Complete Self Study Report', description: 'Comprehensive Self Study Report containing all criteria, extended profile, and institutional analysis for NAAC accreditation.', documents: ['Complete SSR Document', 'Executive Summary', 'Extended Profile', 'Quality Indicator Framework', 'SWOC Analysis'] }
     ]
   },
   'dvv-clarifications': {
     title: 'DVV Clarifications',
     items: [
-      { id: 'dvv-1', title: 'DVV Clarification Response - Criteria 1', description: 'Detailed response to Data Verification and Validation queries for Criteria 1 covering curricular aspects and related documentation.', documents: ['DVV Response C1', 'Supporting Evidence C1', 'Revised Data C1'] },
-      { id: 'dvv-2', title: 'DVV Clarification Response - Criteria 2', description: 'Comprehensive clarification for Criteria 2 addressing teaching-learning processes, evaluation methods, and student-teacher ratios.', documents: ['DVV Response C2', 'Faculty Data Verification', 'Student Enrollment Proof'] },
-      { id: 'dvv-3', title: 'DVV Clarification Response - Criteria 3', description: 'Research and innovation related clarifications including publication details, research grants, and extension activities.', documents: ['DVV Response C3', 'Publication Evidence', 'Research Grant Documents'] },
-      { id: 'dvv-4', title: 'DVV Clarification Response - Criteria 4', description: 'Infrastructure and learning resources verification including IT facilities, library resources, and physical infrastructure.', documents: ['DVV Response C4', 'Infrastructure Photos', 'Equipment Lists'] },
-      { id: 'dvv-5', title: 'DVV Clarification Response - Criteria 5', description: 'Student support services clarification covering scholarships, placement data, and student progression details.', documents: ['DVV Response C5', 'Placement Records', 'Scholarship Evidence'] },
-      { id: 'dvv-6', title: 'DVV Clarification Response - Criteria 6', description: 'Governance and management clarifications including leadership structure, financial management, and quality assurance.', documents: ['DVV Response C6', 'Governance Documents', 'Audit Reports'] },
-      { id: 'dvv-7', title: 'DVV Clarification Response - Criteria 7', description: 'Institutional values and best practices clarification covering environmental initiatives, gender equity, and institutional distinctiveness.', documents: ['DVV Response C7', 'Best Practice Evidence', 'Environmental Reports'] },
-      { id: 'dvv-8', title: 'Additional Clarifications and Supporting Documents', description: 'Supplementary clarifications and additional evidence provided to address specific DVV queries across all criteria.', documents: ['Additional Clarifications', 'Supplementary Evidence', 'Final Response Summary'] }
+      { id: 'criteria-1', title: 'DVV Clarification Response - Criteria 1', description: 'Detailed response to Data Verification and Validation queries for Criteria 1 covering curricular aspects and related documentation.', documents: ['DVV Response C1', 'Supporting Evidence C1', 'Revised Data C1'] },
+      { id: 'criteria-2', title: 'DVV Clarification Response - Criteria 2', description: 'Comprehensive clarification for Criteria 2 addressing teaching-learning processes, evaluation methods, and student-teacher ratios.', documents: ['DVV Response C2', 'Faculty Data Verification', 'Student Enrollment Proof'] },
+      { id: 'criteria-3', title: 'DVV Clarification Response - Criteria 3', description: 'Research and innovation related clarifications including publication details, research grants, and extension activities.', documents: ['DVV Response C3', 'Publication Evidence', 'Research Grant Documents'] },
+      { id: 'criteria-4', title: 'DVV Clarification Response - Criteria 4', description: 'Infrastructure and learning resources verification including IT facilities, library resources, and physical infrastructure.', documents: ['DVV Response C4', 'Infrastructure Photos', 'Equipment Lists'] },
+      { id: 'criteria-5', title: 'DVV Clarification Response - Criteria 5', description: 'Student support services clarification covering scholarships, placement data, and student progression details.', documents: ['DVV Response C5', 'Placement Records', 'Scholarship Evidence'] },
+      { id: 'criteria-6', title: 'DVV Clarification Response - Criteria 6', description: 'Governance and management clarifications including leadership structure, financial management, and quality assurance.', documents: ['DVV Response C6', 'Governance Documents', 'Audit Reports'] },
+      { id: 'criteria-7', title: 'DVV Clarification Response - Criteria 7', description: 'Institutional values and best practices clarification covering environmental initiatives, gender equity, and institutional distinctiveness.', documents: ['DVV Response C7', 'Best Practice Evidence', 'Environmental Reports'] }
     ]
   }
 };
@@ -258,7 +262,7 @@ export const CriteriaPortal: React.FC = () => {
                   </h3>
                 </div>
 
-                {/* Panel Content - SINGLE COLUMN LAYOUT TO PREVENT INTERFERENCE */}
+                {/* Panel Content */}
                 <div className="p-6">
                   <div className="space-y-4">
                     {criteria.items.map((item, index) => (
@@ -267,7 +271,7 @@ export const CriteriaPortal: React.FC = () => {
                         className={`group border border-gray-200 dark:border-dark-600 rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300 animate-scale-in`}
                         style={{ animationDelay: `${index * 50}ms` }}
                       >
-                        {/* Item Header - Each item has unique expansion state */}
+                        {/* Item Header */}
                         <button
                           onClick={() => toggleItemExpansion(item.id)}
                           onKeyDown={(e) => handleKeyDown(e, () => toggleItemExpansion(item.id))}
@@ -283,7 +287,7 @@ export const CriteriaPortal: React.FC = () => {
                           />
                         </button>
 
-                        {/* Item Content - Only expands if this specific item is in expandedItems */}
+                        {/* Item Content */}
                         <div
                           id={`content-${item.id}`}
                           className={`bg-white dark:bg-dark-700 transition-all duration-300 overflow-hidden ${
