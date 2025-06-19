@@ -82,22 +82,31 @@ export const Navbar: React.FC = () => {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
-            {/* Logo */}
+            {/* Logo and Institute Info */}
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 lg:w-12 lg:h-12 bg-gradient-to-br from-primary-500 to-accent-teal rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg lg:text-xl">S</span>
+              <div className="flex-shrink-0">
+                <img
+                  src="/SPIT_logo.png"
+                  alt="SPIT Logo"
+                  className="h-12 w-12 lg:h-14 lg:w-14 object-contain"
+                />
               </div>
               <div className="hidden sm:block">
-                <h1 className="font-playfair font-bold text-lg lg:text-xl text-gray-900 dark:text-white">
-                  S.P.I.T.
+                <div className="text-xs text-gray-600 dark:text-gray-300 font-normal leading-tight">
+                  Bharatiya Vidya Bhavans
+                </div>
+                <h1 className="font-playfair font-bold text-lg lg:text-xl text-gray-900 dark:text-white leading-tight">
+                  Sardar Patel Institute of Technology
                 </h1>
-                <p className="text-xs lg:text-sm text-gray-600 dark:text-gray-300">NAAC Portal</p>
+                <div className="text-xs text-gray-600 dark:text-gray-300 font-normal leading-tight">
+                  Autonomous Institute Affiliated to Mumbai University
+                </div>
               </div>
             </div>
 
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center space-x-1">
-              {navigationItems.slice(0, 8).map((item) => (
+              {navigationItems.slice(0, 6).map((item) => (
                 <div key={item.label} className="relative group">
                   <button
                     className="flex items-center px-3 py-2 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-primary-600 dark:hover:text-accent-teal transition-colors duration-200 relative"
@@ -148,7 +157,7 @@ export const Navbar: React.FC = () => {
                     onMouseEnter={() => setActiveDropdown('more')}
                     onMouseLeave={() => setActiveDropdown(null)}
                   >
-                    {navigationItems.slice(8).map((item) => (
+                    {navigationItems.slice(6).map((item) => (
                       <a
                         key={item.label}
                         href={item.href}
@@ -162,8 +171,14 @@ export const Navbar: React.FC = () => {
               </div>
             </div>
 
-            {/* Theme Toggle & Mobile Menu Button */}
+            {/* Right Side - Back to Home Page & Theme Toggle & Mobile Menu Button */}
             <div className="flex items-center space-x-3">
+              <a
+                href="/"
+                className="hidden md:block text-gray-700 dark:text-gray-200 hover:text-primary-600 dark:hover:text-accent-teal transition-colors duration-200 text-sm font-medium px-3 py-2 rounded-md hover:bg-gray-100/50 dark:hover:bg-dark-800/50"
+              >
+                Back to Home Page
+              </a>
               <ThemeToggle />
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -180,6 +195,14 @@ export const Navbar: React.FC = () => {
         {isMobileMenuOpen && (
           <div className="lg:hidden bg-white dark:bg-dark-900 border-t border-gray-200 dark:border-dark-700 animate-slide-down">
             <div className="max-w-7xl mx-auto px-4 py-4 space-y-2 max-h-96 overflow-y-auto">
+              {/* Mobile Back to Home Page */}
+              <a
+                href="/"
+                className="block px-3 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-dark-800 rounded-md transition-colors duration-200 font-medium"
+              >
+                Back to Home Page
+              </a>
+              
               {navigationItems.map((item) => (
                 <div key={item.label}>
                   {item.submenu ? (
