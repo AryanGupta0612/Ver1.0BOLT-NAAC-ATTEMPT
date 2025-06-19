@@ -1,3 +1,3 @@
-boltattemptforNAAC-SPIT-ARG
+boltattemptforNAAC-SPIT-ARG (V 1.0)
 
-https://polite-clafoutis-ac9722.netlify.app/
+https://heartfelt-bublanina-10b20e.netlify.app/
