@@ -24,7 +24,7 @@ const criteriaData: CriteriaData = {
       { 
         id: '1.1.1',
         pdfFiles: [
-          { name: 'Curriculum Document.pdf', url: '/criteria-1/1.1.1-curriculum-document.pdf' },
+          { name: 'Additional Information.pdf', url: '/assets/AdditionalInfo.pdf' },
           { name: 'Academic Calendar.pdf', url: '/criteria-1/1.1.1-academic-calendar.pdf' }
         ]
       },
