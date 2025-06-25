@@ -4,7 +4,6 @@ import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
 interface CriteriaItem {
   id: string;
-  title: string;
   pdfFiles: {
     name: string;
     url: string;
@@ -23,56 +22,49 @@ const criteriaData: CriteriaData = {
     title: 'CRITERIA 1: Curricular Aspects',
     items: [
       { 
-        id: '1.1.1', 
-        title: 'The Institution ensures effective curriculum delivery through a well-planned and documented process',
+        id: '1.1.1',
         pdfFiles: [
           { name: 'Curriculum Document.pdf', url: '/criteria-1/1.1.1-curriculum-document.pdf' },
           { name: 'Academic Calendar.pdf', url: '/criteria-1/1.1.1-academic-calendar.pdf' }
         ]
       },
       { 
-        id: '1.1.2', 
-        title: 'The institution adheres to the academic calendar including for the conduct of CIE',
+        id: '1.1.2',
         pdfFiles: [
           { name: 'Academic Calendar.pdf', url: '/criteria-1/1.1.2-academic-calendar.pdf' },
           { name: 'CIE Schedule.pdf', url: '/criteria-1/1.1.2-cie-schedule.pdf' }
         ]
       },
       { 
-        id: '1.2.1', 
-        title: 'Number of Certificate/Value added courses offered and online courses of MOOCs',
+        id: '1.2.1',
         pdfFiles: [
           { name: 'Course List.pdf', url: '/criteria-1/1.2.1-course-list.pdf' },
           { name: 'Certificates.pdf', url: '/criteria-1/1.2.1-certificates.pdf' }
         ]
       },
       { 
-        id: '1.3.1', 
-        title: 'Institution integrates crosscutting issues relevant to Professional Ethics',
+        id: '1.3.1',
         pdfFiles: [
           { name: 'Ethics Integration Report.pdf', url: '/criteria-1/1.3.1-ethics-integration.pdf' },
           { name: 'Professional Ethics Framework.pdf', url: '/criteria-1/1.3.1-ethics-framework.pdf' }
         ]
       },
       { 
-        id: '1.3.2', 
-        title: 'Percentage of students undertaking project work/field work/ internships',
+        id: '1.3.2',
         pdfFiles: [
           { name: 'Project Reports.pdf', url: '/criteria-1/1.3.2-project-reports.pdf' },
           { name: 'Internship Records.pdf', url: '/criteria-1/1.3.2-internship-records.pdf' }
         ]
       },
       { 
-        id: '1.3.3', 
-        title: 'Percentage of students undertaking project work/field work/ internships',
+        id: '1.3.3',
         pdfFiles: [
           { name: 'Field Work Reports.pdf', url: '/criteria-1/1.3.3-field-work.pdf' },
           { name: 'Student Participation Data.pdf', url: '/criteria-1/1.3.3-participation-data.pdf' }
         ]
       },
       { 
-        id: '1.4.1', 
-        title: 'Institution obtains feedback on the syllabus and its transaction at the institution',
+        id: '1.4.1',
         pdfFiles: [
           { name: 'Feedback Reports.pdf', url: '/criteria-1/1.4.1-feedback-reports.pdf' },
           { name: 'Analysis Documents.pdf', url: '/criteria-1/1.4.1-analysis-documents.pdf' }
@@ -84,112 +76,98 @@ const criteriaData: CriteriaData = {
     title: 'CRITERIA 2: Teaching-learning and Evaluation',
     items: [
       { 
-        id: '2.1.1', 
-        title: 'Enrolment percentage',
+        id: '2.1.1',
         pdfFiles: [
           { name: 'Enrollment Statistics.pdf', url: '/criteria-2/2.1.1-enrollment-stats.pdf' },
           { name: 'Admission Data.pdf', url: '/criteria-2/2.1.1-admission-data.pdf' }
         ]
       },
       { 
-        id: '2.1.2', 
-        title: 'Percentage of seats filled against seats reserved',
+        id: '2.1.2',
         pdfFiles: [
           { name: 'Reservation Data.pdf', url: '/criteria-2/2.1.2-reservation-data.pdf' },
           { name: 'Seat Allocation Report.pdf', url: '/criteria-2/2.1.2-seat-allocation.pdf' }
         ]
       },
       { 
-        id: '2.2.1', 
-        title: 'Student – Full time Teacher Ratio',
+        id: '2.2.1',
         pdfFiles: [
           { name: 'STR Analysis.pdf', url: '/criteria-2/2.2.1-str-analysis.pdf' },
           { name: 'Faculty Student Data.pdf', url: '/criteria-2/2.2.1-faculty-student-data.pdf' }
         ]
       },
       { 
-        id: '2.2.2', 
-        title: 'Percentage of full time teachers against sanctioned posts',
+        id: '2.2.2',
         pdfFiles: [
           { name: 'Faculty Strength.pdf', url: '/criteria-2/2.2.2-faculty-strength.pdf' },
           { name: 'Sanctioned Posts.pdf', url: '/criteria-2/2.2.2-sanctioned-posts.pdf' }
         ]
       },
       { 
-        id: '2.3.1', 
-        title: 'Student centric methods',
+        id: '2.3.1',
         pdfFiles: [
           { name: 'Teaching Methods.pdf', url: '/criteria-2/2.3.1-teaching-methods.pdf' },
           { name: 'Student Centric Approach.pdf', url: '/criteria-2/2.3.1-student-centric.pdf' }
         ]
       },
       { 
-        id: '2.3.2', 
-        title: 'Teachers use ICT enabled tools',
+        id: '2.3.2',
         pdfFiles: [
           { name: 'ICT Usage Reports.pdf', url: '/criteria-2/2.3.2-ict-usage.pdf' },
           { name: 'Digital Tools Implementation.pdf', url: '/criteria-2/2.3.2-digital-tools.pdf' }
         ]
       },
       { 
-        id: '2.3.3', 
-        title: 'Ratio of mentor to students',
+        id: '2.3.3',
         pdfFiles: [
           { name: 'Mentoring Data.pdf', url: '/criteria-2/2.3.3-mentoring-data.pdf' },
           { name: 'Mentor Student Ratio.pdf', url: '/criteria-2/2.3.3-mentor-ratio.pdf' }
         ]
       },
       { 
-        id: '2.4.1', 
-        title: 'Percentage of full-time teachers against sanctioned posts',
+        id: '2.4.1',
         pdfFiles: [
           { name: 'Sanctioned Posts.pdf', url: '/criteria-2/2.4.1-sanctioned-posts.pdf' },
           { name: 'Faculty Appointment Data.pdf', url: '/criteria-2/2.4.1-appointment-data.pdf' }
         ]
       },
       { 
-        id: '2.4.2', 
-        title: 'Percentage of full time teachers with NET/SET/SLET',
+        id: '2.4.2',
         pdfFiles: [
           { name: 'Qualification Data.pdf', url: '/criteria-2/2.4.2-qualification-data.pdf' },
           { name: 'NET SET SLET Records.pdf', url: '/criteria-2/2.4.2-net-set-records.pdf' }
         ]
       },
       { 
-        id: '2.5.1', 
-        title: 'Mechanism of internal assessment',
+        id: '2.5.1',
         pdfFiles: [
           { name: 'Assessment Methods.pdf', url: '/criteria-2/2.5.1-assessment-methods.pdf' },
           { name: 'Internal Assessment Framework.pdf', url: '/criteria-2/2.5.1-assessment-framework.pdf' }
         ]
       },
       { 
-        id: '2.5.2', 
-        title: 'Percentage of student complaints/grievances',
+        id: '2.5.2',
         pdfFiles: [
           { name: 'Grievance Reports.pdf', url: '/criteria-2/2.5.2-grievance-reports.pdf' },
           { name: 'Complaint Resolution Data.pdf', url: '/criteria-2/2.5.2-complaint-resolution.pdf' }
         ]
       },
       { 
-        id: '2.5.3', 
-        title: 'IT integration and reforms in examination',
+        id: '2.5.3',
         pdfFiles: [
           { name: 'IT Integration.pdf', url: '/criteria-2/2.5.3-it-integration.pdf' },
           { name: 'Examination Reforms.pdf', url: '/criteria-2/2.5.3-exam-reforms.pdf' }
         ]
       },
       { 
-        id: '2.6.1', 
-        title: 'Programme and course outcomes',
+        id: '2.6.1',
         pdfFiles: [
           { name: 'Outcome Reports.pdf', url: '/criteria-2/2.6.1-outcome-reports.pdf' },
           { name: 'Programme Outcomes.pdf', url: '/criteria-2/2.6.1-programme-outcomes.pdf' }
         ]
       },
       { 
-        id: '2.6.2', 
-        title: 'Pass percentage of Students during last five years',
+        id: '2.6.2',
         pdfFiles: [
           { name: 'Pass Percentage Data.pdf', url: '/criteria-2/2.6.2-pass-percentage.pdf' },
           { name: 'Academic Performance Analysis.pdf', url: '/criteria-2/2.6.2-performance-analysis.pdf' }
@@ -201,104 +179,91 @@ const criteriaData: CriteriaData = {
     title: 'CRITERIA 3: Research, Innovations and Extension',
     items: [
       { 
-        id: '3.1.1', 
-        title: 'Grants received from Government and non-governmental agencies',
+        id: '3.1.1',
         pdfFiles: [
           { name: 'Grant Details.pdf', url: '/criteria-3/3.1.1-grant-details.pdf' },
           { name: 'Funding Reports.pdf', url: '/criteria-3/3.1.1-funding-reports.pdf' }
         ]
       },
       { 
-        id: '3.1.2', 
-        title: 'Percentage of teachers recognized as research guides',
+        id: '3.1.2',
         pdfFiles: [
           { name: 'Research Guide List.pdf', url: '/criteria-3/3.1.2-research-guides.pdf' },
           { name: 'Recognition Certificates.pdf', url: '/criteria-3/3.1.2-recognition-certificates.pdf' }
         ]
       },
       { 
-        id: '3.1.3', 
-        title: 'Percentage of departments having Research projects',
+        id: '3.1.3',
         pdfFiles: [
           { name: 'Department Research.pdf', url: '/criteria-3/3.1.3-department-research.pdf' },
           { name: 'Research Project List.pdf', url: '/criteria-3/3.1.3-project-list.pdf' }
         ]
       },
       { 
-        id: '3.2.1', 
-        title: 'Number of papers published per teacher',
+        id: '3.2.1',
         pdfFiles: [
           { name: 'Publication List.pdf', url: '/criteria-3/3.2.1-publication-list.pdf' },
           { name: 'Research Papers Database.pdf', url: '/criteria-3/3.2.1-papers-database.pdf' }
         ]
       },
       { 
-        id: '3.2.2', 
-        title: 'Number of books and chapters in edited volumes',
+        id: '3.2.2',
         pdfFiles: [
           { name: 'Book Publications.pdf', url: '/criteria-3/3.2.2-book-publications.pdf' },
           { name: 'Author Contributions.pdf', url: '/criteria-3/3.2.2-author-contributions.pdf' }
         ]
       },
       { 
-        id: '3.2.3', 
-        title: 'Number of books and chapters in edited volumes/books published',
+        id: '3.2.3',
         pdfFiles: [
           { name: 'Chapter Publications.pdf', url: '/criteria-3/3.2.3-chapter-publications.pdf' },
           { name: 'Editorial Contributions.pdf', url: '/criteria-3/3.2.3-editorial-contributions.pdf' }
         ]
       },
       { 
-        id: '3.4.1', 
-        title: 'Extension activities are carried out in the neighborhood',
+        id: '3.4.1',
         pdfFiles: [
           { name: 'Extension Reports.pdf', url: '/criteria-3/3.4.1-extension-reports.pdf' },
           { name: 'Community Outreach.pdf', url: '/criteria-3/3.4.1-community-outreach.pdf' }
         ]
       },
       { 
-        id: '3.4.2', 
-        title: 'Number of awards and recognitions received',
+        id: '3.4.2',
         pdfFiles: [
           { name: 'Awards List.pdf', url: '/criteria-3/3.4.2-awards-list.pdf' },
           { name: 'Recognition Documents.pdf', url: '/criteria-3/3.4.2-recognition-docs.pdf' }
         ]
       },
       { 
-        id: '3.4.4', 
-        title: 'Percentage of expenditure for infrastructure augmentation',
+        id: '3.4.4',
         pdfFiles: [
           { name: 'Infrastructure Expenditure.pdf', url: '/criteria-3/3.4.4-infrastructure-expenditure.pdf' },
           { name: 'Budget Allocation.pdf', url: '/criteria-3/3.4.4-budget-allocation.pdf' }
         ]
       },
       { 
-        id: '3.5.1', 
-        title: 'Number of functional MoUs with institutions',
+        id: '3.5.1',
         pdfFiles: [
           { name: 'MoU Documents.pdf', url: '/criteria-3/3.5.1-mou-documents.pdf' },
           { name: 'Collaboration Agreements.pdf', url: '/criteria-3/3.5.1-collaboration-agreements.pdf' }
         ]
       },
       { 
-        id: '3.6.1', 
-        title: 'Extension activities in the neighborhood',
+        id: '3.6.1',
         pdfFiles: [
           { name: 'Community Programs.pdf', url: '/criteria-3/3.6.1-community-programs.pdf' },
           { name: 'Social Impact Reports.pdf', url: '/criteria-3/3.6.1-social-impact.pdf' }
         ]
       },
       { 
-        id: '3.6.2', 
-        title: 'Number of awards and recognitions received',
+        id: '3.6.2',
         pdfFiles: [
           { name: 'Recognition Certificates.pdf', url: '/criteria-3/3.6.2-recognition-certificates.pdf' },
           { name: 'Achievement Records.pdf', url: '/criteria-3/3.6.2-achievement-records.pdf' }
         ]
       },
       { 
-        id: '3.7.1', 
-        title: 'Number of collaborative activities',
+        id: '3.7.1',
         pdfFiles: [
           { name: 'Collaboration Reports.pdf', url: '/criteria-3/3.7.1-collaboration-reports.pdf' },
           { name: 'Partnership Activities.pdf', url: '/criteria-3/3.7.1-partnership-activities.pdf' }
@@ -310,72 +275,63 @@ const criteriaData: CriteriaData = {
     title: 'CRITERIA 4: Infrastructure and Learning Resources',
     items: [
       { 
-        id: '4.1.1', 
-        title: 'The Institution has adequate infrastructure and physical facilities',
+        id: '4.1.1',
         pdfFiles: [
           { name: 'Infrastructure Report.pdf', url: '/criteria-4/4.1.1-infrastructure-report.pdf' },
           { name: 'Facility Details.pdf', url: '/criteria-4/4.1.1-facility-details.pdf' }
         ]
       },
       { 
-        id: '4.1.2', 
-        title: 'Percentage of expenditure for infrastructure augmentation',
+        id: '4.1.2',
         pdfFiles: [
           { name: 'Expenditure Analysis.pdf', url: '/criteria-4/4.1.2-expenditure-analysis.pdf' },
           { name: 'Infrastructure Investment.pdf', url: '/criteria-4/4.1.2-infrastructure-investment.pdf' }
         ]
       },
       { 
-        id: '4.2.1', 
-        title: 'Library is automated using Integrated Library Management System',
+        id: '4.2.1',
         pdfFiles: [
           { name: 'Library Automation.pdf', url: '/criteria-4/4.2.1-library-automation.pdf' },
           { name: 'ILMS Implementation.pdf', url: '/criteria-4/4.2.1-ilms-implementation.pdf' }
         ]
       },
       { 
-        id: '4.2.2', 
-        title: 'The institution has subscription for the following e-resources',
+        id: '4.2.2',
         pdfFiles: [
           { name: 'E-Resource List.pdf', url: '/criteria-4/4.2.2-e-resource-list.pdf' },
           { name: 'Digital Subscriptions.pdf', url: '/criteria-4/4.2.2-digital-subscriptions.pdf' }
         ]
       },
       { 
-        id: '4.3.1', 
-        title: 'Institution frequently updates its IT facilities',
+        id: '4.3.1',
         pdfFiles: [
           { name: 'IT Updates.pdf', url: '/criteria-4/4.3.1-it-updates.pdf' },
           { name: 'Technology Upgrades.pdf', url: '/criteria-4/4.3.1-technology-upgrades.pdf' }
         ]
       },
       { 
-        id: '4.3.2', 
-        title: 'Student – Computer ratio',
+        id: '4.3.2',
         pdfFiles: [
           { name: 'Computer Ratio.pdf', url: '/criteria-4/4.3.2-computer-ratio.pdf' },
           { name: 'IT Infrastructure Data.pdf', url: '/criteria-4/4.3.2-it-infrastructure.pdf' }
         ]
       },
       { 
-        id: '4.3.3', 
-        title: 'Bandwidth of internet connection in the Institution',
+        id: '4.3.3',
         pdfFiles: [
           { name: 'Internet Bandwidth.pdf', url: '/criteria-4/4.3.3-internet-bandwidth.pdf' },
           { name: 'Network Infrastructure.pdf', url: '/criteria-4/4.3.3-network-infrastructure.pdf' }
         ]
       },
       { 
-        id: '4.4.1', 
-        title: 'Percentage of expenditure incurred on maintenance',
+        id: '4.4.1',
         pdfFiles: [
           { name: 'Maintenance Expenditure.pdf', url: '/criteria-4/4.4.1-maintenance-expenditure.pdf' },
           { name: 'Facility Maintenance Records.pdf', url: '/criteria-4/4.4.1-maintenance-records.pdf' }
         ]
       },
       { 
-        id: '4.4.2', 
-        title: 'Procedures and policies for maintaining and utilizing physical',
+        id: '4.4.2',
         pdfFiles: [
           { name: 'Maintenance Policies.pdf', url: '/criteria-4/4.4.2-maintenance-policies.pdf' },
           { name: 'Utilization Procedures.pdf', url: '/criteria-4/4.4.2-utilization-procedures.pdf' }
@@ -387,88 +343,77 @@ const criteriaData: CriteriaData = {
     title: 'CRITERIA 5: Student Support and Progression',
     items: [
       { 
-        id: '5.1.1', 
-        title: 'Percentage of students benefited by scholarships',
+        id: '5.1.1',
         pdfFiles: [
           { name: 'Scholarship Data.pdf', url: '/criteria-5/5.1.1-scholarship-data.pdf' },
           { name: 'Financial Aid Records.pdf', url: '/criteria-5/5.1.1-financial-aid.pdf' }
         ]
       },
       { 
-        id: '5.1.2', 
-        title: 'Capacity building and skills enhancement initiatives',
+        id: '5.1.2',
         pdfFiles: [
           { name: 'Skill Development.pdf', url: '/criteria-5/5.1.2-skill-development.pdf' },
           { name: 'Capacity Building Programs.pdf', url: '/criteria-5/5.1.2-capacity-building.pdf' }
         ]
       },
       { 
-        id: '5.1.3', 
-        title: 'Percentage of students benefitted by guidance',
+        id: '5.1.3',
         pdfFiles: [
           { name: 'Guidance Programs.pdf', url: '/criteria-5/5.1.3-guidance-programs.pdf' },
           { name: 'Student Counseling Data.pdf', url: '/criteria-5/5.1.3-counseling-data.pdf' }
         ]
       },
       { 
-        id: '5.1.4', 
-        title: 'The Institution has a transparent mechanism',
+        id: '5.1.4',
         pdfFiles: [
           { name: 'Transparency Reports.pdf', url: '/criteria-5/5.1.4-transparency-reports.pdf' },
           { name: 'Grievance Mechanism.pdf', url: '/criteria-5/5.1.4-grievance-mechanism.pdf' }
         ]
       },
       { 
-        id: '5.2.1', 
-        title: 'Percentage of placement of outgoing students',
+        id: '5.2.1',
         pdfFiles: [
           { name: 'Placement Data.pdf', url: '/criteria-5/5.2.1-placement-data.pdf' },
           { name: 'Employment Statistics.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' }
         ]
       },
       { 
-        id: '5.2.2', 
-        title: 'Percentage of students qualifying in state/national',
+        id: '5.2.2',
         pdfFiles: [
           { name: 'Qualification Data.pdf', url: '/criteria-5/5.2.2-qualification-data.pdf' },
           { name: 'Competitive Exam Results.pdf', url: '/criteria-5/5.2.2-exam-results.pdf' }
         ]
       },
       { 
-        id: '5.3.1', 
-        title: 'Number of awards/medals won by students',
+        id: '5.3.1',
         pdfFiles: [
           { name: 'Student Awards.pdf', url: '/criteria-5/5.3.1-student-awards.pdf' },
           { name: 'Achievement Records.pdf', url: '/criteria-5/5.3.1-achievement-records.pdf' }
         ]
       },
       { 
-        id: '5.3.2', 
-        title: 'Activity of Student Council & representation',
+        id: '5.3.2',
         pdfFiles: [
           { name: 'Student Council.pdf', url: '/criteria-5/5.3.2-student-council.pdf' },
           { name: 'Student Representation Data.pdf', url: '/criteria-5/5.3.2-representation-data.pdf' }
         ]
       },
       { 
-        id: '5.3.3', 
-        title: 'Number of sports and cultural events/competitions',
+        id: '5.3.3',
         pdfFiles: [
           { name: 'Events List.pdf', url: '/criteria-5/5.3.3-events-list.pdf' },
           { name: 'Cultural Activities Report.pdf', url: '/criteria-5/5.3.3-cultural-activities.pdf' }
         ]
       },
       { 
-        id: '5.4.1', 
-        title: 'There is a registered Alumni Association',
+        id: '5.4.1',
         pdfFiles: [
           { name: 'Alumni Association.pdf', url: '/criteria-5/5.4.1-alumni-association.pdf' },
           { name: 'Registration Documents.pdf', url: '/criteria-5/5.4.1-registration-docs.pdf' }
         ]
       },
       { 
-        id: '5.4.2', 
-        title: 'Alumni contribution during the last five years',
+        id: '5.4.2',
         pdfFiles: [
           { name: 'Alumni Contributions.pdf', url: '/criteria-5/5.4.2-alumni-contributions.pdf' },
           { name: 'Donation Records.pdf', url: '/criteria-5/5.4.2-donation-records.pdf' }
@@ -480,96 +425,84 @@ const criteriaData: CriteriaData = {
     title: 'CRITERIA 6: Governance, Leadership and Management',
     items: [
       { 
-        id: '6.1.1', 
-        title: 'The governance of the institution is reflective of effective leadership',
+        id: '6.1.1',
         pdfFiles: [
           { name: 'Governance Structure.pdf', url: '/criteria-6/6.1.1-governance-structure.pdf' },
           { name: 'Leadership Framework.pdf', url: '/criteria-6/6.1.1-leadership-framework.pdf' }
         ]
       },
       { 
-        id: '6.2.1', 
-        title: 'The institutional Strategic/perspective plan is effectively deployed',
+        id: '6.2.1',
         pdfFiles: [
           { name: 'Strategic Plan.pdf', url: '/criteria-6/6.2.1-strategic-plan.pdf' },
           { name: 'Implementation Report.pdf', url: '/criteria-6/6.2.1-implementation-report.pdf' }
         ]
       },
       { 
-        id: '6.2.2', 
-        title: 'Implementation of e-governance in areas of operation',
+        id: '6.2.2',
         pdfFiles: [
           { name: 'E-Governance Systems.pdf', url: '/criteria-6/6.2.2-e-governance-systems.pdf' },
           { name: 'Digital Infrastructure.pdf', url: '/criteria-6/6.2.2-digital-infrastructure.pdf' }
         ]
       },
       { 
-        id: '6.3.1', 
-        title: 'The institution has effective welfare measures for teaching and non-teaching staff',
+        id: '6.3.1',
         pdfFiles: [
           { name: 'Welfare Policies.pdf', url: '/criteria-6/6.3.1-welfare-policies.pdf' },
           { name: 'Staff Benefits.pdf', url: '/criteria-6/6.3.1-staff-benefits.pdf' }
         ]
       },
       { 
-        id: '6.3.2', 
-        title: 'Average percentage of teachers provided with financial support to attend conferences/workshops',
+        id: '6.3.2',
         pdfFiles: [
           { name: 'Financial Support Records.pdf', url: '/criteria-6/6.3.2-financial-support.pdf' },
           { name: 'Conference Attendance.pdf', url: '/criteria-6/6.3.2-conference-attendance.pdf' }
         ]
       },
       { 
-        id: '6.3.3', 
-        title: 'Average number of professional development/administrative training programs organized',
+        id: '6.3.3',
         pdfFiles: [
           { name: 'Training Programs.pdf', url: '/criteria-6/6.3.3-training-programs.pdf' },
           { name: 'Professional Development.pdf', url: '/criteria-6/6.3.3-professional-development.pdf' }
         ]
       },
       { 
-        id: '6.4.1', 
-        title: 'Institution conducts internal and external financial audits regularly',
+        id: '6.4.1',
         pdfFiles: [
           { name: 'Audit Reports.pdf', url: '/criteria-6/6.4.1-audit-reports.pdf' },
           { name: 'Financial Statements.pdf', url: '/criteria-6/6.4.1-financial-statements.pdf' }
         ]
       },
       { 
-        id: '6.4.2', 
-        title: 'Funds/Grants received from non-government bodies, individuals, philanthropists',
+        id: '6.4.2',
         pdfFiles: [
           { name: 'Grant Records.pdf', url: '/criteria-6/6.4.2-grant-records.pdf' },
           { name: 'Funding Sources.pdf', url: '/criteria-6/6.4.2-funding-sources.pdf' }
         ]
       },
       { 
-        id: '6.4.3', 
-        title: 'Institutional strategies for mobilisation of funds and the optimal utilisation of resources',
+        id: '6.4.3',
         pdfFiles: [
           { name: 'Resource Mobilization.pdf', url: '/criteria-6/6.4.3-resource-mobilization.pdf' },
           { name: 'Fund Utilization.pdf', url: '/criteria-6/6.4.3-fund-utilization.pdf' }
         ]
       },
       { 
-        id: '6.5.1', 
-        title: 'Internal Quality Assurance Cell (IQAC) has contributed significantly for institutionalizing the quality assurance strategies',
+        id: '6.5.1',
         pdfFiles: [
           { name: 'IQAC Reports.pdf', url: '/criteria-6/6.5.1-iqac-reports.pdf' },
           { name: 'Quality Initiatives.pdf', url: '/criteria-6/6.5.1-quality-initiatives.pdf' }
         ]
       },
       { 
-        id: '6.5.2', 
-        title: 'The institution reviews its teaching learning process, structures & methodologies of operations',
+        id: '6.5.2',
         pdfFiles: [
           { name: 'Review Reports.pdf', url: '/criteria-6/6.5.2-review-reports.pdf' },
           { name: 'Process Evaluation.pdf', url: '/criteria-6/6.5.2-process-evaluation.pdf' }
         ]
       },
       { 
-        id: '6.5.3', 
-        title: 'Quality assurance initiatives of the institution include regular conduct of Academic and Administrative Audit',
+        id: '6.5.3',
         pdfFiles: [
           { name: 'Quality Audits.pdf', url: '/criteria-6/6.5.3-quality-audits.pdf' },
           { name: 'Assessment Reports.pdf', url: '/criteria-6/6.5.3-assessment-reports.pdf' }
@@ -581,96 +514,84 @@ const criteriaData: CriteriaData = {
     title: 'CRITERIA 7: Institutional Values and Best Practices',
     items: [
       { 
-        id: '7.1.1', 
-        title: 'Measures initiated by the Institution for the promotion of gender equity during the last five years',
+        id: '7.1.1',
         pdfFiles: [
           { name: 'Gender Equity Policies.pdf', url: '/criteria-7/7.1.1-gender-equity.pdf' },
           { name: 'Women Empowerment Programs.pdf', url: '/criteria-7/7.1.1-women-empowerment.pdf' }
         ]
       },
       { 
-        id: '7.1.2', 
-        title: 'The Institution has facilities for alternate sources of energy and energy conservation measures',
+        id: '7.1.2',
         pdfFiles: [
           { name: 'Energy Conservation.pdf', url: '/criteria-7/7.1.2-energy-conservation.pdf' },
           { name: 'Renewable Energy Systems.pdf', url: '/criteria-7/7.1.2-renewable-energy.pdf' }
         ]
       },
       { 
-        id: '7.1.3', 
-        title: 'Describe the facilities in the Institution for the management of the following types of degradable and non-degradable waste',
+        id: '7.1.3',
         pdfFiles: [
           { name: 'Waste Management System.pdf', url: '/criteria-7/7.1.3-waste-management.pdf' },
           { name: 'Environmental Policies.pdf', url: '/criteria-7/7.1.3-environmental-policies.pdf' }
         ]
       },
       { 
-        id: '7.1.4', 
-        title: 'Water conservation facilities available in the Institution',
+        id: '7.1.4',
         pdfFiles: [
           { name: 'Water Conservation.pdf', url: '/criteria-7/7.1.4-water-conservation.pdf' },
           { name: 'Rainwater Harvesting.pdf', url: '/criteria-7/7.1.4-rainwater-harvesting.pdf' }
         ]
       },
       { 
-        id: '7.1.5', 
-        title: 'Green campus initiatives include the following',
+        id: '7.1.5',
         pdfFiles: [
           { name: 'Green Campus Report.pdf', url: '/criteria-7/7.1.5-green-campus.pdf' },
           { name: 'Environmental Initiatives.pdf', url: '/criteria-7/7.1.5-environmental-initiatives.pdf' }
         ]
       },
       { 
-        id: '7.1.6', 
-        title: 'Quality audits on environment and energy regularly undertaken by the Institution',
+        id: '7.1.6',
         pdfFiles: [
           { name: 'Environmental Audits.pdf', url: '/criteria-7/7.1.6-environmental-audits.pdf' },
           { name: 'Energy Audits.pdf', url: '/criteria-7/7.1.6-energy-audits.pdf' }
         ]
       },
       { 
-        id: '7.1.7', 
-        title: 'The Institution has disabled-friendly, barrier free environment',
+        id: '7.1.7',
         pdfFiles: [
           { name: 'Accessibility Features.pdf', url: '/criteria-7/7.1.7-accessibility-features.pdf' },
           { name: 'Barrier-Free Infrastructure.pdf', url: '/criteria-7/7.1.7-barrier-free.pdf' }
         ]
       },
       { 
-        id: '7.1.8', 
-        title: 'Describe the Institutional efforts/initiatives in providing an inclusive environment',
+        id: '7.1.8',
         pdfFiles: [
           { name: 'Inclusion Policies.pdf', url: '/criteria-7/7.1.8-inclusion-policies.pdf' },
           { name: 'Diversity Programs.pdf', url: '/criteria-7/7.1.8-diversity-programs.pdf' }
         ]
       },
       { 
-        id: '7.1.9', 
-        title: 'Sensitization of students and employees of the Institution to the constitutional obligations',
+        id: '7.1.9',
         pdfFiles: [
           { name: 'Constitutional Awareness.pdf', url: '/criteria-7/7.1.9-constitutional-awareness.pdf' },
           { name: 'Civic Education.pdf', url: '/criteria-7/7.1.9-civic-education.pdf' }
         ]
       },
       { 
-        id: '7.1.10', 
-        title: 'The Institution has a prescribed code of conduct for students, teachers, administrators and other staff',
+        id: '7.1.10',
         pdfFiles: [
           { name: 'Code of Conduct.pdf', url: '/criteria-7/7.1.10-code-of-conduct.pdf' },
           { name: 'Ethics Guidelines.pdf', url: '/criteria-7/7.1.10-ethics-guidelines.pdf' }
         ]
       },
       { 
-        id: '7.2.1', 
-        title: 'Describe two best practices successfully implemented by the Institution',
+        id: '7.2.1',
         pdfFiles: [
           { name: 'Best Practice 1.pdf', url: '/criteria-7/7.2.1-best-practice-1.pdf' },
           { name: 'Best Practice 2.pdf', url: '/criteria-7/7.2.1-best-practice-2.pdf' }
         ]
       },
       { 
-        id: '7.3.1', 
-        title: 'Portray the performance of the Institution in one area distinctive to its priority and thrust',
+        id: '7.3.1',
         pdfFiles: [
           { name: 'Distinctive Performance.pdf', url: '/criteria-7/7.3.1-distinctive-performance.pdf' },
           { name: 'Institutional Excellence.pdf', url: '/criteria-7/7.3.1-institutional-excellence.pdf' }
@@ -682,24 +603,21 @@ const criteriaData: CriteriaData = {
     title: 'Self Study Report (SSR)',
     items: [
       { 
-        id: 'ssr-complete', 
-        title: 'Complete Self Study Report',
+        id: 'ssr-complete',
         pdfFiles: [
           { name: 'Complete SSR Document.pdf', url: '/ssr/complete-ssr-document.pdf' },
           { name: 'Executive Summary.pdf', url: '/ssr/executive-summary.pdf' }
         ]
       },
       { 
-        id: 'ssr-profile', 
-        title: 'Extended Profile and Quality Indicators',
+        id: 'ssr-profile',
         pdfFiles: [
           { name: 'Extended Profile.pdf', url: '/ssr/extended-profile.pdf' },
           { name: 'Quality Indicator Framework.pdf', url: '/ssr/quality-indicators.pdf' }
         ]
       },
       { 
-        id: 'ssr-analysis', 
-        title: 'Institutional Analysis and SWOC',
+        id: 'ssr-analysis',
         pdfFiles: [
           { name: 'SWOC Analysis.pdf', url: '/ssr/swoc-analysis.pdf' },
           { name: 'Institutional Analysis.pdf', url: '/ssr/institutional-analysis.pdf' }
@@ -711,56 +629,49 @@ const criteriaData: CriteriaData = {
     title: 'DVV Clarifications',
     items: [
       { 
-        id: 'dvv-criteria-1', 
-        title: 'DVV Clarification Response - Criteria 1',
+        id: 'dvv-criteria-1',
         pdfFiles: [
           { name: 'DVV Response C1.pdf', url: '/dvv/dvv-response-c1.pdf' },
           { name: 'Supporting Evidence C1.pdf', url: '/dvv/supporting-evidence-c1.pdf' }
         ]
       },
       { 
-        id: 'dvv-criteria-2', 
-        title: 'DVV Clarification Response - Criteria 2',
+        id: 'dvv-criteria-2',
         pdfFiles: [
           { name: 'DVV Response C2.pdf', url: '/dvv/dvv-response-c2.pdf' },
           { name: 'Faculty Data Verification.pdf', url: '/dvv/faculty-data-verification.pdf' }
         ]
       },
       { 
-        id: 'dvv-criteria-3', 
-        title: 'DVV Clarification Response - Criteria 3',
+        id: 'dvv-criteria-3',
         pdfFiles: [
           { name: 'DVV Response C3.pdf', url: '/dvv/dvv-response-c3.pdf' },
           { name: 'Publication Evidence.pdf', url: '/dvv/publication-evidence.pdf' }
         ]
       },
       { 
-        id: 'dvv-criteria-4', 
-        title: 'DVV Clarification Response - Criteria 4',
+        id: 'dvv-criteria-4',
         pdfFiles: [
           { name: 'DVV Response C4.pdf', url: '/dvv/dvv-response-c4.pdf' },
           { name: 'Infrastructure Photos.pdf', url: '/dvv/infrastructure-photos.pdf' }
         ]
       },
       { 
-        id: 'dvv-criteria-5', 
-        title: 'DVV Clarification Response - Criteria 5',
+        id: 'dvv-criteria-5',
         pdfFiles: [
           { name: 'DVV Response C5.pdf', url: '/dvv/dvv-response-c5.pdf' },
           { name: 'Placement Records.pdf', url: '/dvv/placement-records.pdf' }
         ]
       },
       { 
-        id: 'dvv-criteria-6', 
-        title: 'DVV Clarification Response - Criteria 6',
+        id: 'dvv-criteria-6',
         pdfFiles: [
           { name: 'DVV Response C6.pdf', url: '/dvv/dvv-response-c6.pdf' },
           { name: 'Governance Documents.pdf', url: '/dvv/governance-documents.pdf' }
         ]
       },
       { 
-        id: 'dvv-criteria-7', 
-        title: 'DVV Clarification Response - Criteria 7',
+        id: 'dvv-criteria-7',
         pdfFiles: [
           { name: 'DVV Response C7.pdf', url: '/dvv/dvv-response-c7.pdf' },
           { name: 'Best Practice Evidence.pdf', url: '/dvv/best-practice-evidence.pdf' }
@@ -900,8 +811,9 @@ export const CriteriaPortal: React.FC = () => {
                           <div className={`w-5 h-5 transition-transform duration-300 ${
                             expandedItems.has(item.id) ? 'rotate-45' : ''
                           }`}>
-                            <div className="w-full h-0.5 bg-white absolute top-1/2 transform -translate-y-1/2"></div>
-                            <div className="h-full w-0.5 bg-white absolute left-1/2 transform -translate-x-1/2"></div>
+                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                            </svg>
                           </div>
                         </button>
 
@@ -913,10 +825,6 @@ export const CriteriaPortal: React.FC = () => {
                           }`}
                         >
                           <div className="p-6">
-                            <h4 className="font-semibold text-gray-900 dark:text-white mb-6 leading-tight text-lg">
-                              {item.title}
-                            </h4>
-                            
                             {/* PDF Downloads */}
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                               {item.pdfFiles.map((pdf, pdfIndex) => (
