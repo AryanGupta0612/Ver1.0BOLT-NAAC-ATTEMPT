@@ -25,7 +25,7 @@ const criteriaData: CriteriaData = {
         id: '1.1.1',
         pdfFiles: [
           { name: 'Additional Information.pdf', url: '/assets/AdditionalInfo.pdf' },
-          { name: 'Academic Calendar.pdf', url: '/criteria-1/1.1.1-academic-calendar.pdf' }
+          { name: 'Academic Calendar.pdf', url: '' }
         ]
       },
       { 
@@ -38,7 +38,7 @@ const criteriaData: CriteriaData = {
       { 
         id: '1.2.1',
         pdfFiles: [
-          { name: 'Course List.pdf', url: '/criteria-1/1.2.1-course-list.pdf' },
+          { name: 'Course List.pdf', url: '/assets/SupportiveClaim.pdf' },
           { name: 'Certificates.pdf', url: '/criteria-1/1.2.1-certificates.pdf' }
         ]
       },
