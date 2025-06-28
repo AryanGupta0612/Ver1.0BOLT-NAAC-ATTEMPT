@@ -119,38 +119,35 @@ const criteriaData: CriteriaData = {
         ]
       },
       { 
+        id: '2.3.1',
+        pdfFiles: [
+          { name: 'Student Centric Methods.pdf', url: '/assets/Student centric methods.pdf' }
+        ]
+      },
+      { 
+        id: '2.3.2',
+        pdfFiles: [
+          { name: 'Effective Mentor-Mentee Schemes.pdf', url: '/assets/2.3.2 The institution adopts effective Mentor-Mentee Schemes to address academics and student-psychological issues.pdf' },
+          { name: 'List of Active mentors.pdf', url: '/assets/2.3.2_list of active mentors.pdf' }
+        ]
+      },
+      { 
         id: '2.3.3',
         pdfFiles: [
-          { name: 'Mentoring Data.pdf', url: '/criteria-2/2.3.3-mentoring-data.pdf' },
-          { name: 'Mentor Student Ratio.pdf', url: '/criteria-2/2.3.3-mentor-ratio.pdf' }
+          { name: 'Adherence to Academic Calendar.pdf', url: '/assets/2.3.3 Academic Calendar Adherance.pdf' }
         ]
       },
       { 
         id: '2.4.1',
         pdfFiles: [
-          { name: 'Sanctioned Posts.pdf', url: '/criteria-2/2.4.1-sanctioned-posts.pdf' },
-          { name: 'Faculty Appointment Data.pdf', url: '/criteria-2/2.4.1-appointment-data.pdf' }
+          { name: 'Sanction Letters Indicating Number of Posts.pdf', url: '/assets/2.4.1.1 Sanction letters indicating number of posts.pdf' }
         ]
       },
       { 
         id: '2.4.2',
         pdfFiles: [
-          { name: 'Qualification Data.pdf', url: '/criteria-2/2.4.2-qualification-data.pdf' },
-          { name: 'NET SET SLET Records.pdf', url: '/criteria-2/2.4.2-net-set-records.pdf' }
-        ]
-      },
-      { 
-        id: '2.5.1',
-        pdfFiles: [
-          { name: 'Assessment Methods.pdf', url: '/criteria-2/2.5.1-assessment-methods.pdf' },
-          { name: 'Internal Assessment Framework.pdf', url: '/criteria-2/2.5.1-assessment-framework.pdf' }
-        ]
-      },
-      { 
-        id: '2.5.2',
-        pdfFiles: [
-          { name: 'Grievance Reports.pdf', url: '/criteria-2/2.5.2-grievance-reports.pdf' },
-          { name: 'Complaint Resolution Data.pdf', url: '/criteria-2/2.5.2-complaint-resolution.pdf' }
+          { name: 'List of faculty with PhD.pdf', url: '/criteria-2/2.5.2-grievance-reports.pdf' },
+          { name: 'PhD Certificates.pdf', url: '/criteria-2/2.5.2-complaint-resolution.pdf' }
         ]
       },
       { 
