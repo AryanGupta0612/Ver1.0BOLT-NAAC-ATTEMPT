@@ -61,8 +61,10 @@ const criteriaData: CriteriaData = {
       { 
         id: '1.3.3',
         pdfFiles: [
-          { name: 'Field Work Reports.pdf', url: '/criteria-1/1.3.3-field-work.pdf' },
-          { name: 'Student Participation Data.pdf', url: '/criteria-1/1.3.3-participation-data.pdf' }
+          { name: 'Field/Research Project/Internship content.pdf', url: '/assets/Program and course contents having element of field projects_ research projects _internships.pdf' },
+          { name: 'Project List and Sample report.pdf', url: '/assets/Sample Evaluated project list and report_fieldwork report.pdf' },
+          { name: 'Internship Completion Letters.pdf', url: '/assets/Sample Internship completion letter provided by host institutions.pdf' },
+          { name: 'Relevant Document.pdf', url: '/assets/The relevant information.pdf' }
         ]
       },
       { 
