@@ -174,15 +174,15 @@ const criteriaData: CriteriaData = {
       { 
         id: '2.6.1',
         pdfFiles: [
-          { name: 'Learning Outcomes.pdf', url: '' }
+          { name: 'Learning Outcomes.pdf', url: '/assets/2.6.1-The Institutation has stated learning outcomes.pdf' }
         ]
       },
       { 
         id: '2.6.2',
         pdfFiles: [
-          { name: 'Report on Pass Percentage of Students.pdf', url: '' },
-          { name: 'Annual Report of COE.pdf', url: '' },
-          { name: 'Gazette 2022-23.pdf', url: '' },
+          { name: 'Report on Pass Percentage of Students.pdf', url: '/assets/Certified CoE report of pass percentage.pdf' },
+          { name: 'Annual Report of COE.pdf', url: '/assets/Annual Report - Certified by COE.pdf' },
+          { name: 'Gazette 2022-23.pdf', url: '/assets/2.6.2 Any other relevant document- 2022-23 Gazette.pdf' },
         ]
       }
     ]
