@@ -146,19 +146,20 @@ const criteriaData: CriteriaData = {
       { 
         id: '2.4.2',
         pdfFiles: [
-          { name: 'List of faculty with PhD.pdf', url: '/criteria-2/2.5.2-grievance-reports.pdf' },
-          { name: 'PhD Certificates.pdf', url: '/criteria-2/2.5.2-complaint-resolution.pdf' }
+          { name: 'List of faculty with PhD.pdf', url: '/assets/List of faculty with PhD Yearwise.pdf' },
+          { name: 'PhD Certificates.pdf', url: '/assets/Copies of PhD Certificate.pdf' }
         ]
       },
       { 
-        id: '2.5.3',
+        id: '2.5.1',
         pdfFiles: [
-          { name: 'IT Integration.pdf', url: '/criteria-2/2.5.3-it-integration.pdf' },
-          { name: 'Examination Reforms.pdf', url: '/criteria-2/2.5.3-exam-reforms.pdf' }
+          { name: 'Date of Publication of Results.pdf', url: '/assets/2.5.1 Average number of days from the date of last semester-end_ year- end examination till the last date of declaration of results during the last five years.pdf' },
+          { name: 'Policy document.pdf', url: '/assets/Policy document on Declaration of results.pdf' },
+          { name: 'Exam timetables.pdf', url: '/assets/2.5.1 Exam Timetables released by CoE.pdf' }
         ]
       },
       { 
-        id: '2.6.1',
+        id: '2.5.2',
         pdfFiles: [
           { name: 'Outcome Reports.pdf', url: '/criteria-2/2.6.1-outcome-reports.pdf' },
           { name: 'Programme Outcomes.pdf', url: '/criteria-2/2.6.1-programme-outcomes.pdf' }
