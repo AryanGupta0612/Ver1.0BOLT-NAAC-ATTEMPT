@@ -24,15 +24,13 @@ const criteriaData: CriteriaData = {
       { 
         id: '1.1.1',
         pdfFiles: [
-          { name: 'Additional Information.pdf', url: '/assets/AdditionalInfo.pdf' },
-          { name: 'Academic Calendar.pdf', url: '' }
+          { name: 'Additional Information.pdf', url: '/assets/AdditionalInfo.pdf' }
         ]
       },
       { 
         id: '1.1.2',
         pdfFiles: [
-          { name: 'Academic Calendar.pdf', url: '/criteria-1/1.1.2-academic-calendar.pdf' },
-          { name: 'CIE Schedule.pdf', url: '/criteria-1/1.1.2-cie-schedule.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/1_1_2_academic_calendar.pdf' }
         ]
       },
       { 
