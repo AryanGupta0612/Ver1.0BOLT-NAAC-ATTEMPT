@@ -70,8 +70,8 @@ const criteriaData: CriteriaData = {
       { 
         id: '1.4.1',
         pdfFiles: [
-          { name: 'Feedback Reports.pdf', url: '/criteria-1/1.4.1-feedback-reports.pdf' },
-          { name: 'Analysis Documents.pdf', url: '/criteria-1/1.4.1-analysis-documents.pdf' }
+          { name: 'Plan of Action.pdf', url: '/assets/1.4.1 Action taken.pdf' }, 
+          { name: 'IQAC Feedback.pdf', url: '/assets/IQAC feedback.pdf' }
         ]
       }
     ]
