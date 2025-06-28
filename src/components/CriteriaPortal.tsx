@@ -46,8 +46,8 @@ const criteriaData: CriteriaData = {
           { name: 'Sample Activities.pdf', url: '/assets/additional information-sample of activities.pdf' },
           { name: 'SPIT Syllabus.pdf', url: '/assets/additional information-SPIT-syllabus.pdf' },
           { name: 'Humanity and Social Science (HSS).pdf', url: '/assets/additional information HSS.pdf' },
-          { name: 'Massive Open Online Course (MOOC).pdf', url: '/assets/additional information-sample of activities.pdf' },
-          { name: 'Seva Satva/ABL/LLC.pdf', url: '/assets/additional information-sample of activities.pdf' }
+          { name: 'Massive Open Online Course (MOOC).pdf', url: '/assets/Additional information-MOOC Courses.pdf' },
+          { name: 'Seva Satva/ABL/LLC.pdf', url: '/assets/additional information-seva-sattva _ABL_LLC-courses.pdf' }
         ]
       },
       { 
