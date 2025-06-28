@@ -53,8 +53,9 @@ const criteriaData: CriteriaData = {
       { 
         id: '1.3.2',
         pdfFiles: [
-          { name: 'Project Reports.pdf', url: '/criteria-1/1.3.2-project-reports.pdf' },
-          { name: 'Internship Records.pdf', url: '/criteria-1/1.3.2-internship-records.pdf' }
+          { name: 'Value added Program Course Module and Notices.pdf', url: '/assets/program brochure_notice for Certificate_Value added programs with course modules.pdf' },
+          { name: 'List of Students and Certificates.pdf', url: '/assets/List of students and Certificate.pdf' },
+          { name: 'Relevant Document.pdf', url: '/assets/Link of relevant document.pdf' }
         ]
       },
       { 
