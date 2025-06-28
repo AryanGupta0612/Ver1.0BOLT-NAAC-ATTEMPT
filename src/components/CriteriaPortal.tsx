@@ -82,22 +82,20 @@ const criteriaData: CriteriaData = {
       { 
         id: '2.1.1',
         pdfFiles: [
-          { name: 'Enrollment Statistics.pdf', url: '/criteria-2/2.1.1-enrollment-stats.pdf' },
-          { name: 'Admission Data.pdf', url: '/criteria-2/2.1.1-admission-data.pdf' }
+          { name: 'List of the Faculty Year-wise.pdf', url: '/assets/2.1 Percentage of full time teachers working in the institution throughout during the last five years.pdf' }
         ]
       },
       { 
-        id: '2.1.2',
+        id: '2.2',
         pdfFiles: [
-          { name: 'Reservation Data.pdf', url: '/criteria-2/2.1.2-reservation-data.pdf' },
-          { name: 'Seat Allocation Report.pdf', url: '/criteria-2/2.1.2-seat-allocation.pdf' }
+          { name: 'List of the Faculty Year-wise.pdf', url: '/assets/2.2.pdf' }
         ]
       },
       { 
-        id: '2.2.1',
+        id: '2.1.1',
         pdfFiles: [
-          { name: 'STR Analysis.pdf', url: '/criteria-2/2.2.1-str-analysis.pdf' },
-          { name: 'Faculty Student Data.pdf', url: '/criteria-2/2.2.1-faculty-student-data.pdf' }
+          { name: 'Admission List as Published by HEI.pdf', url: '/assets/2.1.1 Final Admission list as published by HEI.pdf' },
+          { name: 'Sanction of Intake as Approved by Competent Authority.pdf', url: '/assets/2.1.1 Sanction of Intake as approved by competent authority.pdf' }
         ]
       },
       { 
