@@ -36,14 +36,14 @@ const criteriaData: CriteriaData = {
       { 
         id: '1.2.1',
         pdfFiles: [
-          { name: 'Course List.pdf', url: '/assets/SupportiveClaim.pdf' },
-          { name: 'Certificates.pdf', url: '/criteria-1/1.2.1-certificates.pdf' }
+          { name: 'Academic Council and Board of Study meeting.pdf', url: '/assets/Subsequent Academic Council meeting extracts endorsing the decision of BOS.pdf' },
+          { name: 'Relevant Document.pdf', url: '/assets/SupportiveClaim.pdf' }
         ]
       },
       { 
         id: '1.3.1',
         pdfFiles: [
-          { name: 'Ethics Integration Report.pdf', url: '/criteria-1/1.3.1-ethics-integration.pdf' },
+          { name: 'Sample Activities.pdf', url: '/assets/additional information-sample of activities.pdf' },
           { name: 'Professional Ethics Framework.pdf', url: '/criteria-1/1.3.1-ethics-framework.pdf' }
         ]
       },
