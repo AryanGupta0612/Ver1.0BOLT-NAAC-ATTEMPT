@@ -106,17 +106,16 @@ const criteriaData: CriteriaData = {
         ]
       },
       { 
-        id: '2.3.1',
+        id: '2.2.1',
         pdfFiles: [
-          { name: 'Teaching Methods.pdf', url: '/criteria-2/2.3.1-teaching-methods.pdf' },
-          { name: 'Student Centric Approach.pdf', url: '/criteria-2/2.3.1-student-centric.pdf' }
+          { name: 'Catering to Differential Learning.pdf', url: '/assets/2.2.1 Catering to differential learning.pdf' }
         ]
       },
       { 
-        id: '2.3.2',
+        id: '2.2.2',
         pdfFiles: [
-          { name: 'ICT Usage Reports.pdf', url: '/criteria-2/2.3.2-ict-usage.pdf' },
-          { name: 'Digital Tools Implementation.pdf', url: '/criteria-2/2.3.2-digital-tools.pdf' }
+          { name: 'Full time teachers in 2022-23.pdf', url: '/assets/2.2.2 full time teachers 2022-23.pdf' },
+          { name: 'Number of students in 2022-23.pdf', url: '/assets/2.2.2 List showing number of students in 22-23.pdf' }
         ]
       },
       { 
