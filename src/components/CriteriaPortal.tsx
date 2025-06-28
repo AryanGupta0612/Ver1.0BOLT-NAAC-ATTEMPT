@@ -99,10 +99,10 @@ const criteriaData: CriteriaData = {
         ]
       },
       { 
-        id: '2.2.2',
+        id: '2.1.2',
         pdfFiles: [
-          { name: 'Faculty Strength.pdf', url: '/criteria-2/2.2.2-faculty-strength.pdf' },
-          { name: 'Sanctioned Posts.pdf', url: '/criteria-2/2.2.2-sanctioned-posts.pdf' }
+          { name: 'Percentage of Seats Filled against Reserved Categories.pdf', url: '/assets/Percentage of seats filled against reserved categories.pdf' },
+          { name: 'Letter Issued by State Gov Indicating Reserved Catagories.pdf', url: '/assets/2.1.2 Copy of letter issued by State Gov indicating reserved catagories.pdf' }
         ]
       },
       { 
