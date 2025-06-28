@@ -44,7 +44,10 @@ const criteriaData: CriteriaData = {
         id: '1.3.1',
         pdfFiles: [
           { name: 'Sample Activities.pdf', url: '/assets/additional information-sample of activities.pdf' },
-          { name: 'Professional Ethics Framework.pdf', url: '/criteria-1/1.3.1-ethics-framework.pdf' }
+          { name: 'SPIT Syllabus.pdf', url: '/assets/additional information-SPIT-syllabus.pdf' },
+          { name: 'Humanity and Social Science (HSS).pdf', url: '/assets/additional information HSS.pdf' },
+          { name: 'Massive Open Online Course (MOOC).pdf', url: '/assets/additional information-sample of activities.pdf' },
+          { name: 'Seva Satva/ABL/LLC.pdf', url: '/assets/additional information-sample of activities.pdf' }
         ]
       },
       { 
