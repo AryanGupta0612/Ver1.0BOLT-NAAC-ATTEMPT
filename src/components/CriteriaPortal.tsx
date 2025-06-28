@@ -161,15 +161,28 @@ const criteriaData: CriteriaData = {
       { 
         id: '2.5.2',
         pdfFiles: [
-          { name: 'Outcome Reports.pdf', url: '/criteria-2/2.6.1-outcome-reports.pdf' },
-          { name: 'Programme Outcomes.pdf', url: '/criteria-2/2.6.1-programme-outcomes.pdf' }
+          { name: 'Student Complaints Greivances about Evaluation.pdf', url: '/assets/2.5.2 Percentage of student complaints_greivances about evaluation.pdf' },
+          { name: 'Additional Document.pdf', url: '/assets/Any other document-students appeared.pdf' }
+        ]
+      },
+      { 
+        id: '2.5.3',
+        pdfFiles: [
+          { name: 'IT Integration and Reforms in the Examination Procedures.pdf', url: '/assets/2.5.3-QLM-IT-integration-and-reforms-in-the-examination-procedures.pdf' }
+        ]
+      },
+      { 
+        id: '2.6.1',
+        pdfFiles: [
+          { name: 'Learning Outcomes.pdf', url: '' }
         ]
       },
       { 
         id: '2.6.2',
         pdfFiles: [
-          { name: 'Pass Percentage Data.pdf', url: '/criteria-2/2.6.2-pass-percentage.pdf' },
-          { name: 'Academic Performance Analysis.pdf', url: '/criteria-2/2.6.2-performance-analysis.pdf' }
+          { name: 'Report on Pass Percentage of Students.pdf', url: '' },
+          { name: 'Annual Report of COE.pdf', url: '' },
+          { name: 'Gazette 2022-23.pdf', url: '' },
         ]
       }
     ]
