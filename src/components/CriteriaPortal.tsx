@@ -193,29 +193,29 @@ const criteriaData: CriteriaData = {
       { 
         id: '3.1.1',
         pdfFiles: [
-          { name: 'Grant Details.pdf', url: '/criteria-3/3.1.1-grant-details.pdf' },
-          { name: 'Funding Reports.pdf', url: '/criteria-3/3.1.1-funding-reports.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/Additional_Information_3_1_1.pdf' }
         ]
       },
       { 
         id: '3.1.2',
         pdfFiles: [
-          { name: 'Research Guide List.pdf', url: '/criteria-3/3.1.2-research-guides.pdf' },
-          { name: 'Recognition Certificates.pdf', url: '/criteria-3/3.1.2-recognition-certificates.pdf' }
+          { name: 'Audited Income-Expenditure Statement.pdf', url: '/assets/Audited Income-Expenditure statement highlighting the expenditure.pdf' },
+          { name: 'Sanction Letters of Seed Money to the Teachers.pdf', url: '/assets/Sanction letters of seed money to the teachers.pdf' },
+          { name: 'List of faculty Provided with Seed Money for Research.pdf', url: '/assets/List of faculty who have been provided with seed money for research.pdf' }
         ]
       },
       { 
         id: '3.1.3',
         pdfFiles: [
-          { name: 'Department Research.pdf', url: '/criteria-3/3.1.3-department-research.pdf' },
-          { name: 'Research Project List.pdf', url: '/criteria-3/3.1.3-project-list.pdf' }
+          { name: 'List of Teachers Awarded National International Fellowship.pdf', url: '/assets/List_of_teachers awarded national_ international fellowship.pdf' },
+          { name: 'E-copies of the Award Letters.pdf', url: '/assets/E-copies of the award letters of the teachers.pdf' }
         ]
       },
       { 
         id: '3.2.1',
         pdfFiles: [
-          { name: 'Publication List.pdf', url: '/criteria-3/3.2.1-publication-list.pdf' },
-          { name: 'Research Papers Database.pdf', url: '/criteria-3/3.2.1-papers-database.pdf' }
+          { name: 'List of Extramural Funding Received.pdf', url: '/assets/E-copies of the award letters of the teachers.pdf' },
+          { name: 'Copies of the Letters.pdf', url: '/criteria-3/3.2.1-papers-database.pdf' }
         ]
       },
       { 
