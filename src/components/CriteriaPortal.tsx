@@ -215,35 +215,35 @@ const criteriaData: CriteriaData = {
         id: '3.2.1',
         pdfFiles: [
           { name: 'List of Extramural Funding Received.pdf', url: '/assets/E-copies of the award letters of the teachers.pdf' },
-          { name: 'Copies of the Letters.pdf', url: '/criteria-3/3.2.1-papers-database.pdf' }
+          { name: 'Copies of the Letters.pdf', url: '/assets/(new)Copies of the letters.pdf' }
         ]
       },
       { 
         id: '3.2.2',
         pdfFiles: [
-          { name: 'Book Publications.pdf', url: '/criteria-3/3.2.2-book-publications.pdf' },
-          { name: 'Author Contributions.pdf', url: '/criteria-3/3.2.2-author-contributions.pdf' }
+          { name: 'List of Project titles.pdf', url: '/assets/(new) List of Project.pdf' },
+          { name: 'Grant awards letters.pdf', url: '/assets/(new) Copies of grant award.pdf' }
         ]
       },
       { 
         id: '3.2.3',
         pdfFiles: [
-          { name: 'Chapter Publications.pdf', url: '/criteria-3/3.2.3-chapter-publications.pdf' },
-          { name: 'Editorial Contributions.pdf', url: '/criteria-3/3.2.3-editorial-contributions.pdf' }
+          { name: 'Letter of the University Recognizing Faculty as Research Guides.pdf', url: '/assets/Copies of the letter of the University recognizing faculty as Research guides.pdf' }
         ]
       },
       { 
         id: '3.4.1',
         pdfFiles: [
-          { name: 'Extension Reports.pdf', url: '/criteria-3/3.4.1-extension-reports.pdf' },
-          { name: 'Community Outreach.pdf', url: '/criteria-3/3.4.1-community-outreach.pdf' }
+          { name: 'Constitutions of the Research Advisory.pdf', url: '/assets/(new) Constitutions of the research advisory.pdf' },
+          { name: 'Bills of Purchase of Licensed Plagiarism Check.pdf', url: '/assets/Bills of purchase of licensed plagiarism.pdf' },
+          { name: 'Constitution of the Ethics Committee.pdf', url: '/assets/3.4.2_Ethics_comitee_and_procedings.pdf' },
+          { name: 'Syllabus of the Research Methodology.pdf', url: '/assets/syllabus of the research methodology.pdf' }
         ]
       },
       { 
         id: '3.4.2',
         pdfFiles: [
-          { name: 'Awards List.pdf', url: '/criteria-3/3.4.2-awards-list.pdf' },
-          { name: 'Recognition Documents.pdf', url: '/criteria-3/3.4.2-recognition-docs.pdf' }
+          { name: 'Ph.D. Registration Letters.pdf', url: '/criteria-3/3.4.2-awards-list.pdf' }
         ]
       },
       { 
