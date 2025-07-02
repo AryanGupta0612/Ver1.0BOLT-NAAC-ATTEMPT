@@ -264,13 +264,13 @@ const criteriaData: CriteriaData = {
       { 
         id: '3.6.1',
         pdfFiles: [
-          { name: 'Additional Information.pdf', url: '/criteria-3/3.6.1-community-programs.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/Merged_Outcomes_of_extension_activities_Index_3.6.1.pdf' }
         ]
       },
       { 
         id: '3.6.2',
         pdfFiles: [
-          { name: 'Photographs and any other Supporting Document.pdf', url: '/criteria-3/3.6.2-recognition-certificates.pdf' },
+          { name: 'Photographs and any other Supporting Document.pdf', url: '/assets/Merged_Outcomes_of_extension_activities_Index_3.6.1.pdf' },
           { name: 'Report of Extension and Outreach program.pdf', url: '/criteria-3/3.6.2-achievement-records.pdf' }
         ]
       },
