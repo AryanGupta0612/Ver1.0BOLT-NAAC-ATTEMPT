@@ -243,35 +243,35 @@ const criteriaData: CriteriaData = {
       { 
         id: '3.4.2',
         pdfFiles: [
-          { name: 'Ph.D. Registration Letters.pdf', url: '/criteria-3/3.4.2-awards-list.pdf' }
+          { name: 'Ph.D. Registration Letters.pdf', url: '/assets/Ph.D. registration letters_Joining reports of candidates.pdf' }
         ]
       },
       { 
         id: '3.4.4',
         pdfFiles: [
-          { name: 'Infrastructure Expenditure.pdf', url: '/criteria-3/3.4.4-infrastructure-expenditure.pdf' },
-          { name: 'Budget Allocation.pdf', url: '/criteria-3/3.4.4-budget-allocation.pdf' }
+          { name: 'List of Conference Papers and Book Chapters.pdf', url: '/assets/List of chapter_bo.pdf' },
+          { name: 'Conference Papers and Book Chapters.pdf', url: '/assets/Copy of the Cover page.pdf' }
         ]
       },
       { 
         id: '3.5.1',
         pdfFiles: [
-          { name: 'MoU Documents.pdf', url: '/criteria-3/3.5.1-mou-documents.pdf' },
-          { name: 'Collaboration Agreements.pdf', url: '/criteria-3/3.5.1-collaboration-agreements.pdf' }
+          { name: 'Letter from the Beneficiary of the consultancy.pdf', url: '/assets/Letter from the beneficiary of the consultancy along with details of the consultancy fee.pdf' },
+          { name: 'CA certified copy of Statement of Accounts.pdf', url: '/assets/CA certified copy of statement of accounts as attested by head of the institution.pdf' },
+          { name: 'Audited Statements of Accounts.pdf', url: '/assets/Audited statements of accounts indicating the revenue generated through corporate training_consultancy.pdf' }
         ]
       },
       { 
         id: '3.6.1',
         pdfFiles: [
-          { name: 'Community Programs.pdf', url: '/criteria-3/3.6.1-community-programs.pdf' },
-          { name: 'Social Impact Reports.pdf', url: '/criteria-3/3.6.1-social-impact.pdf' }
+          { name: 'Additional Information.pdf', url: '/criteria-3/3.6.1-community-programs.pdf' }
         ]
       },
       { 
         id: '3.6.2',
         pdfFiles: [
-          { name: 'Recognition Certificates.pdf', url: '/criteria-3/3.6.2-recognition-certificates.pdf' },
-          { name: 'Achievement Records.pdf', url: '/criteria-3/3.6.2-achievement-records.pdf' }
+          { name: 'Photographs and any other Supporting Document.pdf', url: '/criteria-3/3.6.2-recognition-certificates.pdf' },
+          { name: 'Report of Extension and Outreach program.pdf', url: '/criteria-3/3.6.2-achievement-records.pdf' }
         ]
       },
       { 
