@@ -326,22 +326,19 @@ const criteriaData: CriteriaData = {
       { 
         id: '4.3.3',
         pdfFiles: [
-          { name: 'Internet Bandwidth.pdf', url: '/criteria-4/4.3.3-internet-bandwidth.pdf' },
-          { name: 'Network Infrastructure.pdf', url: '/criteria-4/4.3.3-network-infrastructure.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/Additional information_4.3.3.pdf' }
         ]
       },
       { 
         id: '4.4.1',
         pdfFiles: [
-          { name: 'Maintenance Expenditure.pdf', url: '/criteria-4/4.4.1-maintenance-expenditure.pdf' },
-          { name: 'Facility Maintenance Records.pdf', url: '/criteria-4/4.4.1-maintenance-records.pdf' }
+          { name: 'Physical and Academic Expenditure.pdf', url: '/assets/Audited income and expenditure_4.4.1.pdf' }
         ]
       },
       { 
         id: '4.4.2',
         pdfFiles: [
-          { name: 'Maintenance Policies.pdf', url: '/criteria-4/4.4.2-maintenance-policies.pdf' },
-          { name: 'Utilization Procedures.pdf', url: '/criteria-4/4.4.2-utilization-procedures.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/Additional information_4.4.2_final.pdf' }
         ]
       }
     ]
