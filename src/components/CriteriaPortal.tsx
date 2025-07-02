@@ -271,14 +271,14 @@ const criteriaData: CriteriaData = {
         id: '3.6.2',
         pdfFiles: [
           { name: 'Photographs and any other Supporting Document.pdf', url: '/assets/Merged_Outcomes_of_extension_activities_Index_3.6.1.pdf' },
-          { name: 'Report of Extension and Outreach program.pdf', url: '/criteria-3/3.6.2-achievement-records.pdf' }
+          { name: 'Report of Extension and Outreach program.pdf', url: '/assets/Merged_Detailed_Report_Index_Activities_3.6.2.pdf' }
         ]
       },
       { 
         id: '3.7.1',
         pdfFiles: [
-          { name: 'Collaboration Reports.pdf', url: '/criteria-3/3.7.1-collaboration-reports.pdf' },
-          { name: 'Partnership Activities.pdf', url: '/criteria-3/3.7.1-partnership-activities.pdf' }
+          { name: 'Functional MOUs.pdf', url: '/assets/functional MoUs_linkage_collaborations.pdf' },
+          { name: 'List of Yearwise Activities.pdf', url: '/assets/List of yearwise activities.docx.pdf' }
         ]
       }
     ]
