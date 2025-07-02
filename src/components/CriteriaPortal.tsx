@@ -370,8 +370,11 @@ const criteriaData: CriteriaData = {
       { 
         id: '5.1.4',
         pdfFiles: [
-          { name: 'Transparency Reports.pdf', url: '/criteria-5/5.1.4-transparency-reports.pdf' },
-          { name: 'Grievance Mechanism.pdf', url: '/criteria-5/5.1.4-grievance-mechanism.pdf' }
+          { name: 'Awareness and Undertakings on Policies.pdf', url: '/criteria-5/5.1.4-transparency-reports.pdf' },
+          { name: 'Mechanisms for Submission of Online/Offline Student Greviances.pdf', url: '/criteria-5/5.1.4-grievance-mechanism.pdf' },
+          { name: 'Implementation Guidelines of Statutory/Regulatory Bodies.pdf', url: '/criteria-5/5.1.4-grievance-mechanism.pdf' },
+          { name: 'Stuatory/Regulatory Committiees.pdf', url: '/criteria-5/5.1.4-grievance-mechanism.pdf' },
+          { name: 'Annual Report of Committee.pdf', url: '/criteria-5/5.1.4-grievance-mechanism.pdf' }
         ]
       },
       { 
