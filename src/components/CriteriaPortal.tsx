@@ -349,22 +349,22 @@ const criteriaData: CriteriaData = {
       { 
         id: '5.1.1',
         pdfFiles: [
-          { name: 'Scholarship Data.pdf', url: '/criteria-5/5.1.1-scholarship-data.pdf' },
-          { name: 'Financial Aid Records.pdf', url: '/criteria-5/5.1.1-financial-aid.pdf' }
+          { name: 'Year-wise list of Beneficiary Students.pdf', url: '/assets/Scholarship_Final.pdf' },
+          { name: 'Sanction Letter of Scholarship and Freeship.pdf', url: '/assets/Sanction letter of scholarship and free ships (along with English translated version if it is in regional language)..pdf' },
+          { name: 'Policy Document.pdf', url: '/assets/Policy Document.pdf' }
         ]
       },
       { 
         id: '5.1.2',
         pdfFiles: [
-          { name: 'Skill Development.pdf', url: '/criteria-5/5.1.2-skill-development.pdf' },
-          { name: 'Capacity Building Programs.pdf', url: '/criteria-5/5.1.2-capacity-building.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/Efforts taken by the institution.pdf' }
         ]
       },
       { 
         id: '5.1.3',
         pdfFiles: [
-          { name: 'Guidance Programs.pdf', url: '/criteria-5/5.1.3-guidance-programs.pdf' },
-          { name: 'Student Counseling Data.pdf', url: '/criteria-5/5.1.3-counseling-data.pdf' }
+          { name: 'Reports for Awareness of Trends in Technology.pdf', url: '/criteria-5/5.1.3-guidance-programs.pdf' },
+          { name: 'Reports of Language, Soft Skills, Communication Skills, Life Skills.pdf', url: '/criteria-5/5.1.3-counseling-data.pdf' }
         ]
       },
       { 
