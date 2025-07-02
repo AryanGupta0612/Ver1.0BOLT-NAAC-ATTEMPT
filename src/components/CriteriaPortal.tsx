@@ -289,43 +289,38 @@ const criteriaData: CriteriaData = {
       { 
         id: '4.1.1',
         pdfFiles: [
-          { name: 'Infrastructure Report.pdf', url: '/criteria-4/4.1.1-infrastructure-report.pdf' },
-          { name: 'Facility Details.pdf', url: '/criteria-4/4.1.1-facility-details.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/4.1.1_Upload any additional information.pdf' }
         ]
       },
       { 
         id: '4.1.2',
         pdfFiles: [
-          { name: 'Expenditure Analysis.pdf', url: '/criteria-4/4.1.2-expenditure-analysis.pdf' },
-          { name: 'Infrastructure Investment.pdf', url: '/criteria-4/4.1.2-infrastructure-investment.pdf' }
+          { name: 'Relevant Expenditure Claimed for Infrastructure Augmentation.pdf', url: '/assets/Audited income.pdf' }
         ]
       },
       { 
         id: '4.2.1',
         pdfFiles: [
-          { name: 'Library Automation.pdf', url: '/criteria-4/4.2.1-library-automation.pdf' },
-          { name: 'ILMS Implementation.pdf', url: '/criteria-4/4.2.1-ilms-implementation.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/Additional information_44.pdf' }
         ]
       },
       { 
         id: '4.2.2',
         pdfFiles: [
-          { name: 'E-Resource List.pdf', url: '/criteria-4/4.2.2-e-resource-list.pdf' },
-          { name: 'Digital Subscriptions.pdf', url: '/criteria-4/4.2.2-digital-subscriptions.pdf' }
+          { name: 'Library Books Expenditure.pdf', url: '/assets/Audited income library.pdf' }
         ]
       },
       { 
         id: '4.3.1',
         pdfFiles: [
-          { name: 'IT Updates.pdf', url: '/criteria-4/4.3.1-it-updates.pdf' },
-          { name: 'Technology Upgrades.pdf', url: '/criteria-4/4.3.1-technology-upgrades.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/Additional information_4.3.1.pdf' }
         ]
       },
       { 
         id: '4.3.2',
         pdfFiles: [
-          { name: 'Computer Ratio.pdf', url: '/criteria-4/4.3.2-computer-ratio.pdf' },
-          { name: 'IT Infrastructure Data.pdf', url: '/criteria-4/4.3.2-it-infrastructure.pdf' }
+          { name: 'Computer Purchase Bills.pdf', url: '/assets/Purchased BillsCopies highlighting the number of computers purchased.pdf' },
+          { name: 'Extract Stock Register.pdf', url: '/assets/4.3.2.pdf' }
         ]
       },
       { 
