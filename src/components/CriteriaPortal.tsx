@@ -370,11 +370,11 @@ const criteriaData: CriteriaData = {
       { 
         id: '5.1.4',
         pdfFiles: [
-          { name: 'Awareness and Undertakings on Policies.pdf', url: '/criteria-5/5.1.4-transparency-reports.pdf' },
-          { name: 'Mechanisms for Submission of Online/Offline Student Greviances.pdf', url: '/criteria-5/5.1.4-grievance-mechanism.pdf' },
-          { name: 'Implementation Guidelines of Statutory/Regulatory Bodies.pdf', url: '/criteria-5/5.1.4-grievance-mechanism.pdf' },
-          { name: 'Stuatory/Regulatory Committiees.pdf', url: '/criteria-5/5.1.4-grievance-mechanism.pdf' },
-          { name: 'Annual Report of Committee.pdf', url: '/criteria-5/5.1.4-grievance-mechanism.pdf' }
+          { name: 'Awareness and Undertakings on Policies.pdf', url: '/assets/1 Proof w.r.t Organisation wide awareness and undertakings on policies with zero tolerance.pdf' },
+          { name: 'Mechanisms for Submission of Online/Offline Student Greviances.pdf', url: '/assets/2 Online and Offline Mechanisms.pdf' },
+          { name: 'Implementation Guidelines of Statutory/Regulatory Bodies.pdf', url: '/assets/3 Implementation of guidelines of statutory_regulatory bodies.pdf' },
+          { name: 'Stuatory/Regulatory Committiees.pdf', url: '/assets/4 statutory_regulatory Committees.pdf' },
+          { name: 'Annual Report of Committee.pdf', url: '/assets/5 Annual report of the committee.pdf' }
         ]
       },
       { 
