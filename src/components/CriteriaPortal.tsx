@@ -364,7 +364,7 @@ const criteriaData: CriteriaData = {
         id: '5.1.3',
         pdfFiles: [
           { name: 'Reports for Awareness of Trends in Technology.pdf', url: '/assets/Awareness in Trends & Technology.pdf' },
-          { name: 'Reports of Language, Soft Skills, Communication Skills, Life Skills.pdf', url: '/criteria-5/5.1.3-counseling-data.pdf' }
+          { name: 'Reports of Language, Soft Skills, Communication Skills, Life Skills.pdf', url: '/assets/Languages, Communication Skills, Soft Skills, Life Skills.pdf' }
         ]
       },
       { 
