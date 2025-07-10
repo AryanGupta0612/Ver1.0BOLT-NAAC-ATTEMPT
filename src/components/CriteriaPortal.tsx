@@ -380,8 +380,17 @@ const criteriaData: CriteriaData = {
       { 
         id: '5.2.1',
         pdfFiles: [
-          { name: 'Placement Data.pdf', url: '/criteria-5/5.2.1-placement-data.pdf' },
-          { name: 'Employment Statistics.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' }
+          { name: 'Placement and Higher studies summary.pdf', url: '/assets/Placement and Higher Studies proof(NAAC).docx.pdf' },
+          { name: 'Placement 2022-23.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' },
+          { name: 'Higher studies 2022-23.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' },
+          { name: 'Placement 2021-22.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' },
+          { name: 'Higher studies 2021-22.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' },
+          { name: 'Placement 2020-21.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' },
+          { name: 'Higher studies 2020-21.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' },
+          { name: 'Placement 2019-20.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' },
+          { name: 'Higher studies 2019-20.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' },
+          { name: 'Placement 2018-19.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' },
+          { name: 'Higher studies 2018-19.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' }
         ]
       },
       { 
