@@ -44,13 +44,13 @@ export const Navbar: React.FC = () => {
                 />
               </div>
               <div className="hidden sm:block">
-                <div className="text-xs text-gray-600 dark:text-gray-300 font-normal leading-tight">
+                <div className="text-xs text-white dark:text-gray-300 font-normal leading-tight">
                   Bharatiya Vidya Bhavans
                 </div>
-                <h1 className="font-playfair font-bold text-base lg:text-lg text-gray-900 dark:text-white leading-tight whitespace-nowrap">
+                <h1 className="font-playfair font-bold text-base lg:text-lg text-white dark:text-white leading-tight whitespace-nowrap">
                   Sardar Patel Institute of Technology
                 </h1>
-                <div className="text-xs text-gray-600 dark:text-gray-300 font-normal leading-tight">
+                <div className="text-xs text-white dark:text-gray-300 font-normal leading-tight">
                   Autonomous Institute Affiliated to Mumbai University
                 </div>
               </div>
@@ -60,7 +60,7 @@ export const Navbar: React.FC = () => {
             <div className="flex items-center space-x-3">
               <a
                 href="/"
-                className="hidden md:block text-gray-700 dark:text-gray-200 hover:text-primary-600 dark:hover:text-accent-teal transition-colors duration-200 text-sm font-medium px-3 py-2 rounded-md hover:bg-gray-100/50 dark:hover:bg-dark-800/50"
+                className="hidden md:block text-white dark:text-gray-200 hover:text-[#FFD700] dark:hover:text-accent-teal transition-colors duration-200 text-sm font-medium px-3 py-2 rounded-md hover:bg-[#540D6E] dark:hover:bg-dark-800/50"
               >
                 Back to Home Page
               </a>
