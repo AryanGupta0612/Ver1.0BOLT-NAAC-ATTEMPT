@@ -389,8 +389,8 @@ const criteriaData: CriteriaData = {
           { name: 'Higher studies 2020-21.pdf', url: '/assets/6 Higher Studies 2020-21.pdf' },
           { name: 'Placement 2019-20.pdf', url: '/assets/7 Placement 2019-20.pdf' },
           { name: 'Higher studies 2019-20.pdf', url: '/assets/8 Higher Studies 2019-20.pdf' },
-          { name: 'Placement 2018-19.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' },
-          { name: 'Higher studies 2018-19.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' }
+          { name: 'Placement 2018-19.pdf', url: '/assets/9 Placement 2018-19.pdf' },
+          { name: 'Higher studies 2018-19.pdf', url: '/assets/10 Higher Studies 2018-19.pdf' }
         ]
       },
       { 
