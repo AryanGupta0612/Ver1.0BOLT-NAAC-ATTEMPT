@@ -382,8 +382,8 @@ const criteriaData: CriteriaData = {
         pdfFiles: [
           { name: 'Placement and Higher studies summary.pdf', url: '/assets/Placement and Higher Studies proof(NAAC).docx.pdf' },
           { name: 'Placement 2022-23.pdf', url: '/assets/1 Placement 2022-23.pdf' },
-          { name: 'Higher studies 2022-23.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' },
-          { name: 'Placement 2021-22.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' },
+          { name: 'Higher studies 2022-23.pdf', url: '/assets/2 Higher Studies 2022-23.pdf' },
+          { name: 'Placement 2021-22.pdf', url: '/assets/3 Placement 2021-22.pdf' },
           { name: 'Higher studies 2021-22.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' },
           { name: 'Placement 2020-21.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' },
           { name: 'Higher studies 2020-21.pdf', url: '/criteria-5/5.2.1-employment-stats.pdf' },
