@@ -441,22 +441,21 @@ const criteriaData: CriteriaData = {
       { 
         id: '6.1.1',
         pdfFiles: [
-          { name: 'Governance Structure.pdf', url: '/criteria-6/6.1.1-governance-structure.pdf' },
-          { name: 'Leadership Framework.pdf', url: '/criteria-6/6.1.1-leadership-framework.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/Additional Information 6.1.1.pdf' }
         ]
       },
       { 
         id: '6.2.1',
         pdfFiles: [
-          { name: 'Strategic Plan.pdf', url: '/criteria-6/6.2.1-strategic-plan.pdf' },
-          { name: 'Implementation Report.pdf', url: '/criteria-6/6.2.1-implementation-report.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/Additional Information 6.2.1.pdf' }
         ]
       },
       { 
         id: '6.2.2',
         pdfFiles: [
-          { name: 'E-Governance Systems.pdf', url: '/criteria-6/6.2.2-e-governance-systems.pdf' },
-          { name: 'Digital Infrastructure.pdf', url: '/criteria-6/6.2.2-digital-infrastructure.pdf' }
+          { name: 'Screenshots of User Interface.pdf', url: '/criteria-6/6.2.2-e-governance-systems.pdf' },
+          { name: 'Institute Expenditure.pdf', url: '/criteria-6/6.2.2-digital-infrastructure.pdf' },
+          { name: 'Annual E-governance Report.pdf', url: '/criteria-6/6.2.2-digital-infrastructure.pdf' }
         ]
       },
       { 
