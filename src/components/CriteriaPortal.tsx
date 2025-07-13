@@ -502,15 +502,13 @@ const criteriaData: CriteriaData = {
       { 
         id: '6.5.1',
         pdfFiles: [
-          { name: 'IQAC Reports.pdf', url: '/criteria-6/6.5.1-iqac-reports.pdf' },
-          { name: 'Quality Initiatives.pdf', url: '/criteria-6/6.5.1-quality-initiatives.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/6.5.1.-additional Information.pdf' }
         ]
       },
       { 
         id: '6.5.2',
         pdfFiles: [
-          { name: 'Review Reports.pdf', url: '/criteria-6/6.5.2-review-reports.pdf' },
-          { name: 'Process Evaluation.pdf', url: '/criteria-6/6.5.2-process-evaluation.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/6.5.2.-Additional Informationpdf.pdf' }
         ]
       },
       { 
