@@ -461,7 +461,7 @@ const criteriaData: CriteriaData = {
       { 
         id: '6.3.1',
         pdfFiles: [
-          { name: 'Additional Information.pdf', url: '/criteria-6/6.3.1-welfare-policies.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/6.3.1 -Additional Information.pdf' }
         ]
       },
       { 
