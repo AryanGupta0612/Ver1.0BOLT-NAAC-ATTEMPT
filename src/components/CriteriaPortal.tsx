@@ -416,15 +416,15 @@ const criteriaData: CriteriaData = {
         pdfFiles: [
           { name: 'Report on Sports, Cultural,Technical/Academices Festival.pdf', url: '/assets/FESTIVALS.pdf' },
           { name: 'List of Participants.pdf', url: '/assets/List of students participated in the events.pdf' },
-          { name: 'Copy of Circular/Brochure.pdf', url: '/criteria-5/5.3.3-cultural-activities.pdf' }
+          { name: 'Copy of Circular/Brochure.pdf', url: '/assets/Circulars final.pdf' }
 
         ]
       },
       { 
         id: '5.4.1',
         pdfFiles: [
-          { name: 'Alumni Association.pdf', url: '/criteria-5/5.4.1-alumni-association.pdf' },
-          { name: 'Registration Documents.pdf', url: '/criteria-5/5.4.1-registration-docs.pdf' }
+          { name: 'List of Alumni with the Amount Contributed.pdf', url: '/assets/List of alumnus_alumni with the amount contributed year-wise index.pdf' },
+          { name: 'Annual Audited Statements.pdf', url: '/assets/Annual Audited statements.pdf' }
         ]
       },
       { 
