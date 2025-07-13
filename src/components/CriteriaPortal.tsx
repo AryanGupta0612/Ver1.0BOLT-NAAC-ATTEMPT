@@ -469,15 +469,15 @@ const criteriaData: CriteriaData = {
         pdfFiles: [
           { name: 'Policy Document.pdf', url: '/assets/Policy document 6.3.2.pdf' },
           { name: 'Audited Statement.pdf', url: '/assets/Audited statement.pdf' },
-          { name: 'Financial Letter Year wise.pdf', url: '/assets/Copy of financial letter Year wise.pdf' }
+          { name: 'Financial Letter Year wise.pdf', url: '/assets/Copy of finacial letter Year wise.pdf' }
         ]
       },
       { 
         id: '6.3.3',
         pdfFiles: [
-          { name: 'Refresher Course.pdf', url: '/criteria-6/6.3.3-training-programs.pdf' },
-          { name: 'Copy of Certificate.pdf', url: '/criteria-6/6.3.3-professional-development.pdf' },
-          { name: 'Annual Report.pdf', url: '/criteria-6/6.3.3-professional-development.pdf' }
+          { name: 'Refresher Course.pdf', url: '/assets/Refresher course.pdf' },
+          { name: 'Copy of Certificate.pdf', url: '/assets/Copy of Certificate 6.3.3.pdf' },
+          { name: 'Annual Report.pdf', url: '/assets/Annual Report 6.3.3.pdf' }
         ]
       },
       { 
