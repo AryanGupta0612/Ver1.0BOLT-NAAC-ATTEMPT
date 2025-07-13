@@ -414,8 +414,8 @@ const criteriaData: CriteriaData = {
       { 
         id: '5.3.3',
         pdfFiles: [
-          { name: 'Report on Sports, Cultural,Technical/Academices Festival.pdf', url: '/criteria-5/5.3.3-events-list.pdf' },
-          { name: 'List of Participants.pdf', url: '/criteria-5/5.3.3-cultural-activities.pdf' },
+          { name: 'Report on Sports, Cultural,Technical/Academices Festival.pdf', url: '/assets/FESTIVALS.pdf' },
+          { name: 'List of Participants.pdf', url: '/assets/List of students participated in the events.pdf' },
           { name: 'Copy of Circular/Brochure.pdf', url: '/criteria-5/5.3.3-cultural-activities.pdf' }
 
         ]
