@@ -483,22 +483,20 @@ const criteriaData: CriteriaData = {
       { 
         id: '6.4.1',
         pdfFiles: [
-          { name: 'Audit Reports.pdf', url: '/criteria-6/6.4.1-audit-reports.pdf' },
-          { name: 'Financial Statements.pdf', url: '/criteria-6/6.4.1-financial-statements.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/6.4.1-Additional Information.pdf' }
         ]
       },
       { 
         id: '6.4.2',
         pdfFiles: [
-          { name: 'Grant Records.pdf', url: '/criteria-6/6.4.2-grant-records.pdf' },
-          { name: 'Funding Sources.pdf', url: '/criteria-6/6.4.2-funding-sources.pdf' }
+          { name: 'Sanction Letters.pdf', url: '/assets/6.4.2-Copy of sanction letters.pdf' },
+          { name: 'Annual Audited Statements.pdf', url: '/assets/Annual Audited statements 6.4.2.pdf' }
         ]
       },
       { 
         id: '6.4.3',
         pdfFiles: [
-          { name: 'Resource Mobilization.pdf', url: '/criteria-6/6.4.3-resource-mobilization.pdf' },
-          { name: 'Fund Utilization.pdf', url: '/criteria-6/6.4.3-fund-utilization.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/Additional Information 6.4.3.pdf' }
         ]
       },
       { 
