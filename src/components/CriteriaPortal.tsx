@@ -461,22 +461,23 @@ const criteriaData: CriteriaData = {
       { 
         id: '6.3.1',
         pdfFiles: [
-          { name: 'Welfare Policies.pdf', url: '/criteria-6/6.3.1-welfare-policies.pdf' },
-          { name: 'Staff Benefits.pdf', url: '/criteria-6/6.3.1-staff-benefits.pdf' }
+          { name: 'Additional Information.pdf', url: '/criteria-6/6.3.1-welfare-policies.pdf' }
         ]
       },
       { 
         id: '6.3.2',
         pdfFiles: [
-          { name: 'Financial Support Records.pdf', url: '/criteria-6/6.3.2-financial-support.pdf' },
-          { name: 'Conference Attendance.pdf', url: '/criteria-6/6.3.2-conference-attendance.pdf' }
+          { name: 'Policy Document.pdf', url: '/assets/Policy document 6.3.2.pdf' },
+          { name: 'Audited Statement.pdf', url: '/assets/Audited statement.pdf' },
+          { name: 'Financial Letter Year wise.pdf', url: '/assets/Copy of financial letter Year wise.pdf' }
         ]
       },
       { 
         id: '6.3.3',
         pdfFiles: [
-          { name: 'Training Programs.pdf', url: '/criteria-6/6.3.3-training-programs.pdf' },
-          { name: 'Professional Development.pdf', url: '/criteria-6/6.3.3-professional-development.pdf' }
+          { name: 'Refresher Course.pdf', url: '/criteria-6/6.3.3-training-programs.pdf' },
+          { name: 'Copy of Certificate.pdf', url: '/criteria-6/6.3.3-professional-development.pdf' },
+          { name: 'Annual Report.pdf', url: '/criteria-6/6.3.3-professional-development.pdf' }
         ]
       },
       { 
