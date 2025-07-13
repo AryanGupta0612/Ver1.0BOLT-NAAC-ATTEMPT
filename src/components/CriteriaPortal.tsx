@@ -396,15 +396,13 @@ const criteriaData: CriteriaData = {
       { 
         id: '5.2.2',
         pdfFiles: [
-          { name: 'Qualification Data.pdf', url: '/criteria-5/5.2.2-qualification-data.pdf' },
-          { name: 'Competitive Exam Results.pdf', url: '/criteria-5/5.2.2-exam-results.pdf' }
+          { name: 'List of Students Qualified Year-wise.pdf', url: '/assets/5.2.2 final.pdf' }
         ]
       },
-      { 
+      {
         id: '5.3.1',
         pdfFiles: [
-          { name: 'Student Awards.pdf', url: '/criteria-5/5.3.1-student-awards.pdf' },
-          { name: 'Achievement Records.pdf', url: '/criteria-5/5.3.1-achievement-records.pdf' }
+          { name: 'List of E-copies of Award Letters and Certificates.pdf', url: '/assets/awards.pdf' }
         ]
       },
       { 
