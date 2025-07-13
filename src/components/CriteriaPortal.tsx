@@ -453,9 +453,9 @@ const criteriaData: CriteriaData = {
       { 
         id: '6.2.2',
         pdfFiles: [
-          { name: 'Screenshots of User Interface.pdf', url: '/criteria-6/6.2.2-e-governance-systems.pdf' },
-          { name: 'Institute Expenditure.pdf', url: '/criteria-6/6.2.2-digital-infrastructure.pdf' },
-          { name: 'Annual E-governance Report.pdf', url: '/criteria-6/6.2.2-digital-infrastructure.pdf' }
+          { name: 'Screenshots of User Interface.pdf', url: '/assets/Screenshots of User Interface.pdf' },
+          { name: 'Institute Expenditure.pdf', url: '/assets/6_2_2 Institute Expenditure.pdf' },
+          { name: 'Annual E-governance Report.pdf', url: '/assets/6_2_2 Annual e-governance report.pdf' }
         ]
       },
       { 
