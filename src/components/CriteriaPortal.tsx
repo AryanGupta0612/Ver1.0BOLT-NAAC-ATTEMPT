@@ -430,8 +430,7 @@ const criteriaData: CriteriaData = {
       { 
         id: '5.4.2',
         pdfFiles: [
-          { name: 'Alumni Contributions.pdf', url: '/criteria-5/5.4.2-alumni-contributions.pdf' },
-          { name: 'Donation Records.pdf', url: '/criteria-5/5.4.2-donation-records.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/alumni contributions and engagements.pdf' }
         ]
       }
     ]
