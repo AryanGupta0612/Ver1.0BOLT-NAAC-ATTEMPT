@@ -408,15 +408,16 @@ const criteriaData: CriteriaData = {
       { 
         id: '5.3.2',
         pdfFiles: [
-          { name: 'Student Council.pdf', url: '/criteria-5/5.3.2-student-council.pdf' },
-          { name: 'Student Representation Data.pdf', url: '/criteria-5/5.3.2-representation-data.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/Student Council and other representations.pdf' }
         ]
       },
       { 
         id: '5.3.3',
         pdfFiles: [
-          { name: 'Events List.pdf', url: '/criteria-5/5.3.3-events-list.pdf' },
-          { name: 'Cultural Activities Report.pdf', url: '/criteria-5/5.3.3-cultural-activities.pdf' }
+          { name: 'Report on Sports, Cultural,Technical/Academices Festival.pdf', url: '/criteria-5/5.3.3-events-list.pdf' },
+          { name: 'List of Participants.pdf', url: '/criteria-5/5.3.3-cultural-activities.pdf' },
+          { name: 'Copy of Circular/Brochure.pdf', url: '/criteria-5/5.3.3-cultural-activities.pdf' }
+
         ]
       },
       { 
