@@ -676,10 +676,10 @@ const criteriaData: CriteriaData = {
       { 
         id: 'Criteria 3',
         pdfFiles: [
-          { name: 'Audited Income Expenditure.pdf', url: '/dvv/dvv-response-c3.pdf' },
-          { name: 'List of faculty seed money for research.pdf', url: '/dvv/publication-evidence.pdf' },
-          { name: 'Sanction letters.pdf', url: '/dvv/publication-evidence.pdf' },
-          { name: 'E-copies of the teachers.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Audited Income Expenditure.pdf', url: '/assets/Audited Income-Expendituredvv.pdf' },
+          { name: 'List of faculty seed money for research.pdf', url: '/assets/List of faculty seed money for research.pdf' },
+          { name: 'Sanction letters.pdf', url: '/assets/Sanction letters dvv.pdf' },
+          { name: 'E-copies of the teachers.pdf', url: '/assets/E-copies of the teachers dvv.pdf' },
           { name: 'List of teachers awarded.pdf', url: '/dvv/publication-evidence.pdf' },
           { name: 'List of grants.pdf', url: '/dvv/publication-evidence.pdf' },
           { name: 'List of teachers.pdf', url: '/dvv/publication-evidence.pdf' },
