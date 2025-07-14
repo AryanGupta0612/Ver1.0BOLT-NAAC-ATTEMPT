@@ -702,11 +702,11 @@ const criteriaData: CriteriaData = {
           { name: 'Ecopy of along with ISBN number.pdf', url: '/assets/Ecopy with ISBN number.pdf' },
           { name: 'Audited statements.pdf', url: '/assets/Audited statementsdvvvv.pdf' },
           { name: 'Letter from the beneficiary.pdf', url: '/assets/Letter from the beneficiarydvv.pdf' },
-          { name: 'Activities.pdf', url: '/dvv/publication-evidence.pdf' },
-          { name: 'Outreach Activities.pdf', url: '/dvv/publication-evidence.pdf' },
-          { name: 'Copies of functional MoUs.pdf', url: '/dvv/publication-evidence.pdf' },
-          { name: 'List of yearwise activities.pdf', url: '/dvv/publication-evidence.pdf' },
-          { name: 'Summary of the functional MOUs.pdf', url: '/dvv/publication-evidence.pdf' }
+          { name: 'Activities.pdf', url: '/assets/3.6.2_ctivities.pdf' },
+          { name: 'Outreach Activities.pdf', url: '/assets/outreach activities.xlsx - 3.6.2dvv.pdf' },
+          { name: 'Copies of functional MoUs.pdf', url: '/assets/Copies_of_functional MoUs.pdf' },
+          { name: 'List of yearwise activities.pdf', url: '/assets/List of yearwise activitiesdvvvv.pdf' },
+          { name: 'Summary of the functional MOUs.pdf', url: '/assets/Summary of the functional MOUsdvv.pdf' }
         ]
       },
       { 
