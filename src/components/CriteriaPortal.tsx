@@ -613,7 +613,7 @@ const criteriaData: CriteriaData = {
     ]
   },
   'ssr': {
-    title: 'Self Study Report (SSR)',
+    title: 'SSR',
     items: [
       { 
         id: 'SSR',
@@ -627,52 +627,188 @@ const criteriaData: CriteriaData = {
     title: 'DVV Clarifications',
     items: [
       { 
-        id: 'dvv-criteria-1',
+        id: 'Criteria 1',
         pdfFiles: [
-          { name: 'DVV Response C1.pdf', url: '/dvv/dvv-response-c1.pdf' },
-          { name: 'Supporting Evidence C1.pdf', url: '/dvv/supporting-evidence-c1.pdf' }
+          { name: 'Number of students on rolls year wise.pdf', url: '/dvv/dvv-response-c1.pdf' },
+          { name: 'Number of final year outgoing students.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
+          { name: 'MoM of BOS and AC.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
+          { name: 'Syllabus Revision.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
+          { name: 'List of New Courses.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
+          { name: 'List of Value added Program.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
+          { name: 'Value added courses content.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
+          { name: 'List of Student and certificate.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
+          { name: 'List of Internship students and certificate.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
+          { name: 'Program and course contents having element of field projects.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
+          { name: 'Subsequent Academic Council meeting.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
+          { name: 'Alumni Feedback.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
+          { name: 'Employer Feedback.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
+          { name: 'Parent Feedback.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
+          { name: 'Students Feedback.pdf', url: '/dvv/supporting-evidence-c1.pdf' }
         ]
       },
       { 
-        id: 'dvv-criteria-2',
+        id: 'Criteria 2',
         pdfFiles: [
-          { name: 'DVV Response C2.pdf', url: '/dvv/dvv-response-c2.pdf' },
-          { name: 'Faculty Data Verification.pdf', url: '/dvv/faculty-data-verification.pdf' }
+          { name: 'Number of Full Time Teachers Year wise.pdf', url: '/dvv/dvv-response-c2.pdf' },
+          { name: 'Total No. of Full time teachers worked during the last five years.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Appointment Letter.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Sanction of Intake as approved by competent authority.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Admission extract.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Admission list as published by HEI.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Additional Intake.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Percentage of seats filled against reserved categories.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Summary of no. of seats earmarked and admitted.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Admission extract.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Sanctioned order of the posts.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'List of faculties with PhD and PhD degrees.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Certified experience of faculties.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Number of full time teachers worked in last five years.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'List of full time teachers during first year assessment period.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Exam end date & date of announcement of results.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Exam timetable released by COE.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Result sheet with date of publication.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Document of minutes of the grievances.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'List of students applied for revaluation.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Annual report of COE.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'COE report indicating past percentage of students.pdf', url: '/dvv/faculty-data-verification.pdf' }
         ]
       },
       { 
-        id: 'dvv-criteria-3',
+        id: 'Criteria 3',
         pdfFiles: [
-          { name: 'DVV Response C3.pdf', url: '/dvv/dvv-response-c3.pdf' },
-          { name: 'Publication Evidence.pdf', url: '/dvv/publication-evidence.pdf' }
+          { name: 'Audited Income Expenditure.pdf', url: '/dvv/dvv-response-c3.pdf' },
+          { name: 'List of faculty seed money for research.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Sanction letters.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'E-copies of the teachers.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'List of teachers awarded.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'List of grants.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'List of teachers.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Sanction order.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Faculty as Research guides.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Bills of purchase.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Constitution of the ethics committee.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Copy of the syllabus.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Research advisory committee.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Letters Received.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'The joining letter Ph.D.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Link to journal papers.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Screenshots of journal papers 2018.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Screenshots of journal papers 2019.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Screenshots of journal papers 2020.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Screenshots of journal papers 2021.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Screenshots of journal papers 2022.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Screenshots of journal papers 2023.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Data Template.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Ecopy of along with ISBN number.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Audited statements.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Letter from the beneficiary.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Activities.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Outreach Activities.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Copies of functional MoUs.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'List of yearwise activities.pdf', url: '/dvv/publication-evidence.pdf' },
+          { name: 'Summary of the functional MOUs.pdf', url: '/dvv/publication-evidence.pdf' }
         ]
       },
       { 
-        id: 'dvv-criteria-4',
+        id: 'Criteria 4',
         pdfFiles: [
-          { name: 'DVV Response C4.pdf', url: '/dvv/dvv-response-c4.pdf' },
-          { name: 'Infrastructure Photos.pdf', url: '/dvv/infrastructure-photos.pdf' }
+          { name: 'Expense Infrastructure.pdf', url: '/dvv/dvv-response-c4.pdf' },
+          { name: 'Fund.pdf', url: '/dvv/infrastructure-photos.pdf' },
+          { name: 'EF Excluding Salary.pdf', url: '/dvv/infrastructure-photos.pdf' },
+          { name: 'Statement salary show.pdf', url: '/dvv/infrastructure-photos.pdf' },
+          { name: 'Purchase Expenditure.pdf', url: '/dvv/infrastructure-photos.pdf' },
+          { name: 'ESR.pdf', url: '/dvv/infrastructure-photos.pdf' },
+          { name: 'PB.pdf', url: '/dvv/infrastructure-photos.pdf' },
+          { name: 'Physical Expenditure.pdf', url: '/dvv/infrastructure-photos.pdf' }
         ]
       },
       { 
-        id: 'dvv-criteria-5',
+        id: 'Criteria 5',
         pdfFiles: [
-          { name: 'DVV Response C5.pdf', url: '/dvv/dvv-response-c5.pdf' },
-          { name: 'Placement Records.pdf', url: '/dvv/placement-records.pdf' }
+          { name: 'Government Scholarship Policy document.pdf', url: '/dvv/dvv-response-c5.pdf' },
+          { name: 'Non Government Scholarship Policy document.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Sanction letter of scholarship.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Year-wise list of beneficiary students in each scheme.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Capacity Development Programme.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Awareness in Trends and Technology.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Language, Life Skills.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Minutes of the meetings of student grievances.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Anti Ragging committee.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Grievance Redressal committee.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Internal Complaints committee.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Year-wise list of students placed details.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Higher Studies 2022-23.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Higher Studies 2021-22.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Higher Studies 2020-21.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Higher Studies 2019-20.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Higher Studies 2018-19.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'List of students qualified yearwise under each head.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Qualifying Certificates.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'E-copies of award letters and certificates.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'List of number of students participants in events.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Report of the events.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Alumni Association Registration Certificate.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Annual audited statements of account.pdf', url: '/dvv/placement-records.pdf' }
         ]
       },
       { 
-        id: 'dvv-criteria-6',
+        id: 'Criteria 6',
         pdfFiles: [
-          { name: 'DVV Response C6.pdf', url: '/dvv/dvv-response-c6.pdf' },
-          { name: 'Governance Documents.pdf', url: '/dvv/governance-documents.pdf' }
+          { name: 'ERP Contract Document.pdf', url: '/dvv/dvv-response-c6.pdf' },
+          { name: 'Institutional expenditure statements.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Screenshot of UI.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Policy Document.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Ecopy letters FY-22-23.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Faculty List FY-22-23.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Ecopy letters FY-21-22.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Faculty List FY-21-22.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Ecopy letters FY-20-21.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Faculty List FY-20-21.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Ecopy letters FY-19-20.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Faculty List FY-19-20.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'E-Copy letters FY-18-19.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Faculty list FY-18-19.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Audited Statement.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Revised DVV.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'List of teachers 22-23.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Ecopy Certificate 22-23.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'List of teachers 21-22.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Ecopy Certificate 21-22.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'List of teachers 20-21.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Ecopy Certificate 20-21.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'List of teachers 19-20.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Ecopy Certificate 19-20.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'List of teachers 18-19.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Ecopy Certificate 18-19.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Annual audited statements.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Copy of Sanction letter.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Proceedings of AAA.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'List of Activities.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Supporting Document.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'NIRF Certificates.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'Quality certificate.pdf', url: '/dvv/governance-documents.pdf' }
         ]
       },
       { 
-        id: 'dvv-criteria-7',
+        id: 'Criteria 7',
         pdfFiles: [
-          { name: 'DVV Response C7.pdf', url: '/dvv/dvv-response-c7.pdf' },
-          { name: 'Best Practice Evidence.pdf', url: '/dvv/best-practice-evidence.pdf' }
+          { name: 'Any other relevant proof.pdf', url: '/dvv/dvv-response-c7.pdf' },
+          { name: 'Bills for purchase of equipment under this metric.pdf', url: '/dvv/best-practice-evidence.pdf' },
+          { name: 'Geotagged Photographs of facilities.pdf', url: '/dvv/best-practice-evidence.pdf' },
+          { name: 'Permission Document for connecting to grid.pdf', url: '/dvv/best-practice-evidence.pdf' },
+          { name: 'Bills for purchase of equipment.pdf', url: '/dvv/best-practice-evidence.pdf' },
+          { name: 'Geotagged Photos of facilities.pdf', url: '/dvv/best-practice-evidence.pdf' },
+          { name: 'Green Audit report on water conservation facilties on campus.pdf', url: '/dvv/best-practice-evidence.pdf' },
+          { name: 'Water conservation policy document.pdf', url: '/dvv/best-practice-evidence.pdf' },
+          { name: 'Beyond Campus Activities.pdf', url: '/dvv/best-practice-evidence.pdf' },
+          { name: 'Certificates and Awards.pdf', url: '/dvv/best-practice-evidence.pdf' },
+          { name: 'Green, Energy and Environment Audit Reports (2018-19 to 2022-23).pdf', url: '/dvv/best-practice-evidence.pdf' },
+          { name: 'Any other relevant proof.pdf', url: '/dvv/best-practice-evidence.pdf' },
+          { name: 'Activities organised under this metric for students.pdf', url: '/dvv/best-practice-evidence.pdf' },
+          { name: 'Institute Handbook.pdf', url: '/dvv/best-practice-evidence.pdf' },
+          { name: 'Activities organised under this metric for faculty and staff.pdf', url: '/dvv/best-practice-evidence.pdf' },
+          { name: 'Policy Document on Code of Conduct.pdf', url: '/dvv/best-practice-evidence.pdf' },
+          { name: 'Proceedings of Monitoring Committee.pdf', url: '/dvv/best-practice-evidence.pdf' }
         ]
       }
     ]
