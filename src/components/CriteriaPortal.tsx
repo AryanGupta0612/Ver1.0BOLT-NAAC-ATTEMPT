@@ -649,11 +649,11 @@ const criteriaData: CriteriaData = {
       { 
         id: 'Criteria 2',
         pdfFiles: [
-          { name: 'Number of Full Time Teachers Year wise.pdf', url: '/dvv/dvv-response-c2.pdf' },
-          { name: 'Total No. of Full time teachers worked during the last five years.pdf', url: '/dvv/faculty-data-verification.pdf' },
-          { name: 'Appointment Letter.pdf', url: '/dvv/faculty-data-verification.pdf' },
-          { name: 'Sanction of Intake as approved by competent authority.pdf', url: '/dvv/faculty-data-verification.pdf' },
-          { name: 'Admission extract.pdf', url: '/dvv/faculty-data-verification.pdf' },
+          { name: 'Number of Full Time Teachers Year wise.pdf', url: '/assets/2.1 Lhead-merged.pdf' },
+          { name: 'Total No. of Full time teachers worked during the last five years.pdf', url: '/assets/1-2.2 Lhead-merged.pdf' },
+          { name: 'Appointment Letter.pdf', url: '/assets/2 Appoinment Letter merged.pdf' },
+          { name: 'Sanction of Intake as approved by competent authority.pdf', url: '/assets/dvv 2.1.1 Sanction of Intake as approved by competent authority.pdf' },
+          { name: 'Admission extract.pdf', url: '/assets/dvv Admission extract.pdf' },
           { name: 'Admission list as published by HEI.pdf', url: '/dvv/faculty-data-verification.pdf' },
           { name: 'Additional Intake.pdf', url: '/dvv/faculty-data-verification.pdf' },
           { name: 'Percentage of seats filled against reserved categories.pdf', url: '/dvv/faculty-data-verification.pdf' },
