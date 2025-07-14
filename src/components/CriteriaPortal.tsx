@@ -712,14 +712,14 @@ const criteriaData: CriteriaData = {
       { 
         id: 'Criteria 4',
         pdfFiles: [
-          { name: 'Expense Infrastructure.pdf', url: '/dvv/dvv-response-c4.pdf' },
-          { name: 'Fund.pdf', url: '/dvv/infrastructure-photos.pdf' },
-          { name: 'EF Excluding Salary.pdf', url: '/dvv/infrastructure-photos.pdf' },
-          { name: 'Statement salary show.pdf', url: '/dvv/infrastructure-photos.pdf' },
-          { name: 'Purchase Expenditure.pdf', url: '/dvv/infrastructure-photos.pdf' },
-          { name: 'ESR.pdf', url: '/dvv/infrastructure-photos.pdf' },
-          { name: 'PB.pdf', url: '/dvv/infrastructure-photos.pdf' },
-          { name: 'Physical Expenditure.pdf', url: '/dvv/infrastructure-photos.pdf' }
+          { name: 'Expense Infrastructure.pdf', url: '/assets/4.1.2_Exp_InfraDA.pdf' },
+          { name: 'Fund.pdf', url: '/assets/4.1.2_fund.pdf' },
+          { name: 'EF Excluding Salary.pdf', url: '/assets/3.1_EFExcludingSalary.pdf' },
+          { name: 'Statement salary show.pdf', url: '/assets/3.1_Statementsalaryshow.pdf' },
+          { name: 'Purchase Expenditure.pdf', url: '/assets/4.2.2_Expenditurepurchaseb.pdf' },
+          { name: 'ESR.pdf', url: '/assets/4.3.2_ESR.pdf' },
+          { name: 'PB.pdf', url: '/assets/4.3.2_PB.pdf' },
+          { name: 'Physical Expenditure.pdf', url: '/assets/4.4.1_Expenditurephysicalfaa.pdf' }
         ]
       },
       { 
@@ -960,7 +960,13 @@ export const CriteriaPortal: React.FC = () => {
                         >
                           <div className="p-6">
                             {/* PDF Downloads */}
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div
+                              className="grid grid-cols-1 md:grid-cols-2 gap-4"
+                              style={{
+                                maxHeight: '320px', // ~20rem, adjust as needed
+                                overflowY: 'auto'
+                              }}
+                            >
                               {item.pdfFiles.map((pdf, pdfIndex) => (
                                 <a
                                   key={pdfIndex}
