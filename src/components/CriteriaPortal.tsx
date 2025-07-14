@@ -548,22 +548,26 @@ const criteriaData: CriteriaData = {
       { 
         id: '7.1.4',
         pdfFiles: [
-          { name: 'Water Conservation.pdf', url: '/criteria-7/7.1.4-water-conservation.pdf' },
-          { name: 'Rainwater Harvesting.pdf', url: '/criteria-7/7.1.4-rainwater-harvesting.pdf' }
+          { name: 'Green Audit Report on Water Conservation.pdf', url: '' },
+          { name: 'Geotagged Photographs of the Facilities.pdf', url: '/assets/Geotagged Photographs of the facilities.pdf' },
+          { name: 'Bills of Purchase.pdf', url: '/assets/Bills of purchase.pdf' }
         ]
       },
       { 
         id: '7.1.5',
         pdfFiles: [
-          { name: 'Green Campus Report.pdf', url: '/criteria-7/7.1.5-green-campus.pdf' },
-          { name: 'Environmental Initiatives.pdf', url: '/criteria-7/7.1.5-environmental-initiatives.pdf' }
+          { name: 'Clean and Green Campus Policy.pdf', url: '/assets/Clean and Green Campus Policy.pdf' },
+          { name: 'Geo-tagged photographs.pdf', url: '/assets/Photographs.pdf' },
+          { name: 'Circulars and report of activities.pdf', url: '/assets/Circulars and report of activities 7.1.5.pdf' }
         ]
       },
       { 
         id: '7.1.6',
         pdfFiles: [
-          { name: 'Environmental Audits.pdf', url: '/criteria-7/7.1.6-environmental-audits.pdf' },
-          { name: 'Energy Audits.pdf', url: '/criteria-7/7.1.6-energy-audits.pdf' }
+          { name: 'Report on Beyond Campus Activities.pdf', url: '/assets/Report on beyond Campus activities.pdf' },
+          { name: 'Policy on Environment and Energy usage.pdf', url: '/assets/Policy on environment and energy usage 7.1.6.pdf' },
+          { name: 'Green Audit and Environment Audit Reports.pdf', url: '/assets/Green Energy and Environment Audit reports.pdf' },
+          { name: 'Certificates of awards Received.pdf', url: '/assets/Certificates of awards 7.1.6.pdf' }
         ]
       },
       { 
