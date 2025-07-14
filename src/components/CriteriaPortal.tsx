@@ -637,13 +637,13 @@ const criteriaData: CriteriaData = {
           { name: 'List of Value added Program.pdf', url: '/assets/1.3.2List of Value added Program.pdf' },
           { name: 'Value added courses content.pdf', url: '/assets/1.3.2. Value added courses content.pdf' },
           { name: 'List of Student and certificate.pdf', url: '/assets/1.3.2 List of Student and certificate.pdf' },
-          { name: 'List of Internship students and certificate.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
-          { name: 'Program and course contents having element of field projects.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
-          { name: 'Subsequent Academic Council meeting.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
-          { name: 'Alumni Feedback.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
-          { name: 'Employer Feedback.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
-          { name: 'Parent Feedback.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
-          { name: 'Students Feedback.pdf', url: '/dvv/supporting-evidence-c1.pdf' }
+          { name: 'List of Internship students and certificate.pdf', url: '/assets/1.3.3 List of Internship students and certificate.pdf' },
+          { name: 'Program and course contents having element of field projects.pdf', url: '/assets/1.3.3 Program and course contents having element of field projects.pdf' },
+          { name: 'Subsequent Academic Council meeting.pdf', url: '/assets/Subsequent Academic Council meeting dvv.pdf' },
+          { name: 'Alumni Feedback.pdf', url: '/assets/alumni dvv.pdf' },
+          { name: 'Employer Feedback.pdf', url: '/assets/employer dvv.pdf' },
+          { name: 'Parent Feedback.pdf', url: '/assets/parent dvv.pdf' },
+          { name: 'Students Feedback.pdf', url: '/assets/students dvv.pdf' }
         ]
       },
       { 
