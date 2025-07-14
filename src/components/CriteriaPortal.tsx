@@ -528,22 +528,21 @@ const criteriaData: CriteriaData = {
       { 
         id: '7.1.1',
         pdfFiles: [
-          { name: 'Gender Equity Policies.pdf', url: '/criteria-7/7.1.1-gender-equity.pdf' },
-          { name: 'Women Empowerment Programs.pdf', url: '/criteria-7/7.1.1-women-empowerment.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/Additional Information 7.1.1.pdf' }
         ]
       },
       { 
         id: '7.1.2',
         pdfFiles: [
-          { name: 'Energy Conservation.pdf', url: '/criteria-7/7.1.2-energy-conservation.pdf' },
-          { name: 'Renewable Energy Systems.pdf', url: '/criteria-7/7.1.2-renewable-energy.pdf' }
+          { name: 'Permission for Connecting to Grid.pdf', url: '/assets/Permission Document for connecting to grid.pdf' },
+          { name: 'Photographs of Facilities.pdf', url: '/assets/Photographs of facilities.pdf' },
+          { name: 'Bills for Purchase of Equipment.pdf', url: '/assets/Bills for purchase of equipment.pdf' }
         ]
       },
       { 
         id: '7.1.3',
         pdfFiles: [
-          { name: 'Waste Management System.pdf', url: '/criteria-7/7.1.3-waste-management.pdf' },
-          { name: 'Environmental Policies.pdf', url: '/criteria-7/7.1.3-environmental-policies.pdf' }
+          { name: 'Relevant Information to Waste Management.pdf', url: '/assets/Any other relevant information 7.1.3.pdf' }
         ]
       },
       { 
