@@ -515,7 +515,7 @@ const criteriaData: CriteriaData = {
         id: '6.5.3',
         pdfFiles: [
           { name: 'Quality Audit Reports.pdf', url: '/assets/Quality Audit Reports.pdf' },
-          { name: 'NIRF AAA Report.pdf', url: '' },
+          { name: 'NIRF AAA Report.pdf', url: '#' },
           { name: 'List of Collaborative Quality Initiatives with other Institute.pdf', url: '/assets/List of Collaborative Quality Initiatives with other Institute.pdf' },
           { name: 'Relevant Document.pdf', url: '/assets/Relevant Document.pdf' }
         ]
@@ -548,7 +548,7 @@ const criteriaData: CriteriaData = {
       { 
         id: '7.1.4',
         pdfFiles: [
-          { name: 'Green Audit Report on Water Conservation.pdf', url: '' },
+          { name: 'Green Audit Report on Water Conservation.pdf', url: '#' },
           { name: 'Geotagged Photographs of the Facilities.pdf', url: '/assets/Geotagged Photographs of the facilities.pdf' },
           { name: 'Bills of Purchase.pdf', url: '/assets/Bills of purchase.pdf' }
         ]
@@ -573,43 +573,41 @@ const criteriaData: CriteriaData = {
       { 
         id: '7.1.7',
         pdfFiles: [
-          { name: 'Accessibility Features.pdf', url: '/criteria-7/7.1.7-accessibility-features.pdf' },
-          { name: 'Barrier-Free Infrastructure.pdf', url: '/criteria-7/7.1.7-barrier-free.pdf' }
+          { name: 'Additional Information.pdf', url: '/assets/Additional Information 7.1.7.pdf' }
         ]
       },
       { 
         id: '7.1.8',
         pdfFiles: [
-          { name: 'Inclusion Policies.pdf', url: '/criteria-7/7.1.8-inclusion-policies.pdf' },
-          { name: 'Diversity Programs.pdf', url: '/criteria-7/7.1.8-diversity-programs.pdf' }
+          { name: 'Supporting Documents for Information Provided.pdf', url: '/assets/Supporting Documents for information provided 7.1.8.pdf' }
         ]
       },
       { 
         id: '7.1.9',
         pdfFiles: [
-          { name: 'Constitutional Awareness.pdf', url: '/criteria-7/7.1.9-constitutional-awareness.pdf' },
-          { name: 'Civic Education.pdf', url: '/criteria-7/7.1.9-civic-education.pdf' }
+          { name: 'Details of Activities.pdf', url: '/assets/Details of activities 7.1.9.pdf' },
+          { name: 'Any other Relevant Information.pdf', url: '/assets/Any other relevant information 7.1.9.pdf' }
         ]
       },
       { 
         id: '7.1.10',
         pdfFiles: [
-          { name: 'Code of Conduct.pdf', url: '/criteria-7/7.1.10-code-of-conduct.pdf' },
-          { name: 'Ethics Guidelines.pdf', url: '/criteria-7/7.1.10-ethics-guidelines.pdf' }
+          { name: 'Report on Student Attributes.pdf', url: '/criteria-7/7.1.10-code-of-conduct.pdf' },
+          { name: 'Any Other Relevant Documents to Support the Claim.pdf', url: '/criteria-7/7.1.10-ethics-guidelines.pdf' },
+          { name: 'Constitution & Proceeding of Monitoring Committee.pdf', url: '/criteria-7/7.1.10-ethics-guidelines.pdf' },
+          { name: 'Circulars and Geotagged photographs of activities under this metric.pdf', url: '/criteria-7/7.1.10-ethics-guidelines.pdf' }
         ]
       },
       { 
         id: '7.2.1',
         pdfFiles: [
-          { name: 'Best Practice 1.pdf', url: '/criteria-7/7.2.1-best-practice-1.pdf' },
-          { name: 'Best Practice 2.pdf', url: '/criteria-7/7.2.1-best-practice-2.pdf' }
+          { name: 'Best Practices.pdf', url: '/criteria-7/7.2.1-best-practice-1.pdf' }
         ]
       },
       { 
         id: '7.3.1',
         pdfFiles: [
-          { name: 'Distinctive Performance.pdf', url: '/criteria-7/7.3.1-distinctive-performance.pdf' },
-          { name: 'Institutional Excellence.pdf', url: '/criteria-7/7.3.1-institutional-excellence.pdf' }
+          { name: 'Relevant Information.pdf', url: '/criteria-7/7.3.1-distinctive-performance.pdf' }
         ]
       }
     ]
