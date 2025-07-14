@@ -601,13 +601,13 @@ const criteriaData: CriteriaData = {
       { 
         id: '7.2.1',
         pdfFiles: [
-          { name: 'Best Practices.pdf', url: '/criteria-7/7.2.1-best-practice-1.pdf' }
+          { name: 'Best Practices.pdf', url: '/assets/Best Practices 7.2.1.pdf' }
         ]
       },
       { 
         id: '7.3.1',
         pdfFiles: [
-          { name: 'Relevant Information.pdf', url: '/criteria-7/7.3.1-distinctive-performance.pdf' }
+          { name: 'Relevant Information.pdf', url: '/assets/Any other relevant information 7.3.1.pdf' }
         ]
       }
     ]
