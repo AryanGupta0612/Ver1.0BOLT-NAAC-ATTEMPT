@@ -592,10 +592,10 @@ const criteriaData: CriteriaData = {
       { 
         id: '7.1.10',
         pdfFiles: [
-          { name: 'Report on Student Attributes.pdf', url: '/criteria-7/7.1.10-code-of-conduct.pdf' },
-          { name: 'Any Other Relevant Documents to Support the Claim.pdf', url: '/criteria-7/7.1.10-ethics-guidelines.pdf' },
-          { name: 'Constitution & Proceeding of Monitoring Committee.pdf', url: '/criteria-7/7.1.10-ethics-guidelines.pdf' },
-          { name: 'Circulars and Geotagged photographs of activities under this metric.pdf', url: '/criteria-7/7.1.10-ethics-guidelines.pdf' }
+          { name: 'Report on Student Attributes.pdf', url: '/assets/Report on student attributes 7.1.10.pdf' },
+          { name: 'Any Other Relevant Documents to Support the Claim.pdf', url: '/assets/Any other relevant documents to support the claim 7.1.10.pdf' },
+          { name: 'Constitution & Proceeding of Monitoring Committee.pdf', url: '/assets/Constitution & Proceedings of Monitoring Committee 7.1.10.pdf' },
+          { name: 'Circulars and Geotagged photographs of activities under this metric.pdf', url: '/assets/Circulars and geotagged photographs of activities under this metric 7.1.10.pdf' }
         ]
       },
       { 
