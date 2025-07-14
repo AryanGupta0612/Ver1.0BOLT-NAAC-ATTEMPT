@@ -514,8 +514,10 @@ const criteriaData: CriteriaData = {
       { 
         id: '6.5.3',
         pdfFiles: [
-          { name: 'Quality Audits.pdf', url: '/criteria-6/6.5.3-quality-audits.pdf' },
-          { name: 'Assessment Reports.pdf', url: '/criteria-6/6.5.3-assessment-reports.pdf' }
+          { name: 'Quality Audit Reports.pdf', url: '/assets/Quality Audit Reports.pdf' },
+          { name: 'NIRF AAA Report.pdf', url: '/criteria-6/6.5.3-assessment-reports.pdf' },
+          { name: 'List of Collaborative Quality Initiatives with other Institute.pdf', url: '/criteria-6/6.5.3-assessment-reports.pdf' },
+          { name: 'Relevant Document.pdf', url: '/criteria-6/6.5.3-assessment-reports.pdf' }
         ]
       }
     ]
