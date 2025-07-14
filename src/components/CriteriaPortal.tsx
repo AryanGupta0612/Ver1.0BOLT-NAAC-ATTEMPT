@@ -629,12 +629,12 @@ const criteriaData: CriteriaData = {
       { 
         id: 'Criteria 1',
         pdfFiles: [
-          { name: 'Number of students on rolls year wise.pdf', url: '/dvv/dvv-response-c1.pdf' },
-          { name: 'Number of final year outgoing students.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
-          { name: 'MoM of BOS and AC.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
-          { name: 'Syllabus Revision.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
-          { name: 'List of New Courses.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
-          { name: 'List of Value added Program.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
+          { name: 'Number of students on rolls year wise.pdf', url: '/assets/1.1Number of students on rolls year wise during last five years.pdf' },
+          { name: 'Number of final year outgoing students.pdf', url: '/assets/1.2 Number of final year outgoing students year wise during last five years.pdf' },
+          { name: 'MoM of BOS and AC.pdf', url: '/assets/1.2.1 MoM of BOS and AC.pdf' },
+          { name: 'Syllabus Revision.pdf', url: '/assets/1.2.1 Syllabus Revision.pdf' },
+          { name: 'List of New Courses.pdf', url: '/assets/updated 1.2.1 dvv -8524.pdf' },
+          { name: 'List of Value added Program.pdf', url: '/assets/1.3.2List of Value added Program.pdf' },
           { name: 'Value added courses content.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
           { name: 'List of Student and certificate.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
           { name: 'List of Internship students and certificate.pdf', url: '/dvv/supporting-evidence-c1.pdf' },
