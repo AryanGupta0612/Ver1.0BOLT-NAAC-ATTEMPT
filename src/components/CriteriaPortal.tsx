@@ -615,24 +615,9 @@ const criteriaData: CriteriaData = {
     title: 'Self Study Report (SSR)',
     items: [
       { 
-        id: 'ssr-complete',
+        id: 'SSR',
         pdfFiles: [
-          { name: 'Complete SSR Document.pdf', url: '/ssr/complete-ssr-document.pdf' },
-          { name: 'Executive Summary.pdf', url: '/ssr/executive-summary.pdf' }
-        ]
-      },
-      { 
-        id: 'ssr-profile',
-        pdfFiles: [
-          { name: 'Extended Profile.pdf', url: '/ssr/extended-profile.pdf' },
-          { name: 'Quality Indicator Framework.pdf', url: '/ssr/quality-indicators.pdf' }
-        ]
-      },
-      { 
-        id: 'ssr-analysis',
-        pdfFiles: [
-          { name: 'SWOC Analysis.pdf', url: '/ssr/swoc-analysis.pdf' },
-          { name: 'Institutional Analysis.pdf', url: '/ssr/institutional-analysis.pdf' }
+          { name: 'SSR.pdf', url: '/assets/S.P.I.T._NAAC_SSR_Cycle_1.pdf' }
         ]
       }
     ]
