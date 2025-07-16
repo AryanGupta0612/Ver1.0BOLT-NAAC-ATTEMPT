@@ -754,11 +754,11 @@ const criteriaData: CriteriaData = {
       { 
         id: 'Criteria 6',
         pdfFiles: [
-          { name: 'ERP Contract Document.pdf', url: '/dvv/dvv-response-c6.pdf' },
-          { name: 'Institutional expenditure statements.pdf', url: '/dvv/governance-documents.pdf' },
-          { name: 'Screenshot of UI.pdf', url: '/dvv/governance-documents.pdf' },
-          { name: 'Policy Document.pdf', url: '/dvv/governance-documents.pdf' },
-          { name: 'Ecopy letters FY-22-23.pdf', url: '/dvv/governance-documents.pdf' },
+          { name: 'ERP Contract Document.pdf', url: '/assets/ERP Contract Document.pdf' },
+          { name: 'Institutional expenditure statements.pdf', url: '/assets/Institutional expenditure statements.pdf' },
+          { name: 'Screenshot of UI.pdf', url: '/assets/screenshots dvv.pdf' },
+          { name: 'Policy Document.pdf', url: '/assets/Policy Document.pdf' },
+          { name: 'Ecopy letters FY-22-23.pdf', url: '/assets/Ecopy letters FY-22-23.pdf' },
           { name: 'Faculty List FY-22-23.pdf', url: '/dvv/governance-documents.pdf' },
           { name: 'Ecopy letters FY-21-22.pdf', url: '/dvv/governance-documents.pdf' },
           { name: 'Faculty List FY-21-22.pdf', url: '/dvv/governance-documents.pdf' },
