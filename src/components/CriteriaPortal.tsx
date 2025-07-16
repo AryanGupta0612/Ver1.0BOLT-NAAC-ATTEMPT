@@ -725,11 +725,11 @@ const criteriaData: CriteriaData = {
       { 
         id: 'Criteria 5',
         pdfFiles: [
-          { name: 'Government Scholarship Policy document.pdf', url: '/dvv/dvv-response-c5.pdf' },
-          { name: 'Non Government Scholarship Policy document.pdf', url: '/dvv/placement-records.pdf' },
-          { name: 'Sanction letter of scholarship.pdf', url: '/dvv/placement-records.pdf' },
-          { name: 'Year-wise list of beneficiary students in each scheme.pdf', url: '/dvv/placement-records.pdf' },
-          { name: 'Capacity Development Programme.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'Government Scholarship Policy document.pdf', url: '/assets/1 Government Scholarship Policy document.pdf' },
+          { name: 'Non Government Scholarship Policy document.pdf', url: '/assets/2 Non Government Scholarship Policy document.pdf' },
+          { name: 'Sanction letter of scholarship.pdf', url: '/assets/3 sanction letter of scholarship.pdf' },
+          { name: 'Year-wise list of beneficiary students in each scheme.pdf', url: '/assets/4 Year-wise list of beneficiary students in each scheme.pdf' },
+          { name: 'Capacity Development Programme.pdf', url: '/assets/1 S.P.I.T._Capacity_Development_Programmedvv5.pdf' },
           { name: 'Awareness in Trends and Technology.pdf', url: '/dvv/placement-records.pdf' },
           { name: 'Language, Life Skills.pdf', url: '/dvv/placement-records.pdf' },
           { name: 'Minutes of the meetings of student grievances.pdf', url: '/dvv/placement-records.pdf' },
