@@ -744,11 +744,11 @@ const criteriaData: CriteriaData = {
           { name: 'Higher Studies 2018-19.pdf', url: '/assets/10 Higher Studies 2018-19.pdf' },
           { name: 'List of students qualified yearwise under each head.pdf', url: '/assets/1 List of students qualified yearwise under each headdvv.pdf' },
           { name: 'Qualifying Certificates.pdf', url: '/assets/2 Qualifying Certificatesdvv.pdf' },
-          { name: 'E-copies of award letters and certificates.pdf', url: '/dvv/placement-records.pdf' },
+          { name: 'E-copies of award letters and certificates.pdf', url: '/assets/1 E-copies of award letters and certificates.pdf' },
           { name: 'List of number of students participants in events.pdf', url: '/assets/1 List of number of students participants in events.pdf' },
-          { name: 'Report of the events.pdf', url: '/dvv/placement-records.pdf' },
-          { name: 'Alumni Association Registration Certificate.pdf', url: '/dvv/placement-records.pdf' },
-          { name: 'Annual audited statements of account.pdf', url: '/dvv/placement-records.pdf' }
+          { name: 'Report of the events.pdf', url: '/assets/2 Report of the eventsdvv.pdf' },
+          { name: 'Alumni Association Registration Certificate.pdf', url: '/assets/1 Alumni Association Registration Certificate.pdf' },
+          { name: 'Annual audited statements of account.pdf', url: '/assets/2 Annual audited statements of account.pdf' }
         ]
       },
       { 
