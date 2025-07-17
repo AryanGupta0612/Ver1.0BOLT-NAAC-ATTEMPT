@@ -803,12 +803,12 @@ const criteriaData: CriteriaData = {
           { name: 'Beyond Campus Activities.pdf', url: '/assets/7.1.6 Beyond Campus Activities.pdf' },
           { name: 'Certificates and Awards.pdf', url: '/assets/7.1.6 Certificates and Awards.pdf' },
           { name: 'Green, Energy and Environment Audit Reports (2018-19 to 2022-23).pdf', url: '/assets/7.1.6 Green, Energy and Environment Audit Reports (2018-19 to 2022-23).pdf' },
-          { name: 'Any other relevant proof.pdf', url: '/dvv/best-practice-evidence.pdf' },
-          { name: 'Activities organised under this metric for students.pdf', url: '/dvv/best-practice-evidence.pdf' },
-          { name: 'Institute Handbook.pdf', url: '/dvv/best-practice-evidence.pdf' },
-          { name: 'Activities organised under this metric for faculty and staff.pdf', url: '/dvv/best-practice-evidence.pdf' },
-          { name: 'Policy Document on Code of Conduct.pdf', url: '/dvv/best-practice-evidence.pdf' },
-          { name: 'Proceedings of Monitoring Committee.pdf', url: '/dvv/best-practice-evidence.pdf' }
+          { name: 'Any other relevant proof.pdf', url: '/assets/7.1.6 Policy Document on Environment and Energy Usage.pdf' },
+          { name: 'Activities organised under this metric for students.pdf', url: '/assets/7.1.10 Activities organised under this metric for students.pdf' },
+          { name: 'Institute Handbook.pdf', url: '/assets/7.1.10 Institute Handbook.pdf' },
+          { name: 'Activities organised under this metric for faculty and staff.pdf', url: '/assets/7.1.10 Activities organised under this metric for faculty and staff.pdf' },
+          { name: 'Policy Document on Code of Conduct.pdf', url: '/assets/7.1.10 Policy Document on Code of Conduct.pdf' },
+          { name: 'Proceedings of Monitoring Committee.pdf', url: '/assets/7.1.10 Proceedings of Monitoring Committee.pdf' }
         ]
       }
     ]
