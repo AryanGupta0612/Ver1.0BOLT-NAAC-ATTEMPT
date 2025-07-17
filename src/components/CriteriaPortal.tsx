@@ -783,10 +783,10 @@ const criteriaData: CriteriaData = {
           { name: 'Annual audited statements.pdf', url: '/assets/Annual audited statementsdvv.pdf' },
           { name: 'Copy of Sanction letter.pdf', url: '/assets/Copy of Sanction letter.pdf' },
           { name: 'Proceedings of AAA.pdf', url: '/assets/Proceedings of AAA.pdf' },
-          { name: 'List of Activities.pdf', url: '/dvv/governance-documents.pdf' },
-          { name: 'Supporting Document.pdf', url: '/dvv/governance-documents.pdf' },
-          { name: 'NIRF Certificates.pdf', url: '/dvv/governance-documents.pdf' },
-          { name: 'Quality certificate.pdf', url: '/dvv/governance-documents.pdf' }
+          { name: 'List of Activities.pdf', url: '/assets/List of Activitiesdvv.pdf' },
+          { name: 'Supporting Document.pdf', url: '/assets/Supporting Document.pdf' },
+          { name: 'NIRF Certificates.pdf', url: '/assets/NIRF Certificates.pdf' },
+          { name: 'Quality certificate.pdf', url: '/assets/Quality certificate.pdf' }
         ]
       },
       { 
